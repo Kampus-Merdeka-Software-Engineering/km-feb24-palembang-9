@@ -3,30 +3,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <tittle>Team 9 </tittle>
-    <meta name="tittle" content="Team 9">
-    <meta name="description" content="Web devloped by Team 9">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    rel="stylesheet">
 
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0..1,0" />
-
-<link rel="stylesheet" href="style.css">
-<script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 <body>
-<header class="header" data header>
-    <div class="container">
-
-        <a href="#" class="logo">
-            <img src="" alt="" class="src">
-        </a>
+    <div class="grid-container">
+    <header class="header"> 
+        <div class="menu-icon" onclick="openSidebar()">
+            <span class="material-icons-outlined">menu</span>
+        </div>
+        <div class="header-left">
+            <span class="material-icons-outlined">search</span>
+        </div>
+        <div class="header-right">
+            <span class="material-icons-outlined">notifications</span>
+            <span class="material-icons-outlined">email</span>
+            <span class="material-icons-outlined">account_circle</span>
+        </div>
+    </header>
+    <aside id="sidebar"> 
+        <div class="sidebar-tittle">
+            <div class="sidebar-brand">
+                <span class="material-icons-outlined">real_estate_agent</span>NYC Property
+            </div>
+            <span class="material-icons-outlined"onclick="closeSidebar()">close</span>
+        </div>
+        <ul class="sidebar-list">
+            <li class="sidebar-list-item">
+                <span class="material-icons-outlined">dashboard</span> Dashboard 
+            </li>
+            <li class="sidebar-list-item">
+                <span class="material-icons-outlined">production_quantity_limits</span>Product
+            </li>
+            <li class="sidebar-list-item">
+                <span class="material-icons-outlined">inventory</span>Inventory 
+            </li>
+            <li class="sidebar-list-item">
+                <span class="material-icons-outlined">shopping_cart</span>Purchase_Order
+            </li>
+                <li class="sidebar-list-item">
+                    <span class="material-icons-outlined">local_atm</span>Sales_Order
+                </li>
+                <li class="sidebar-list-item">
+                <span class="material-icons-outlined">settings_applications</span>Setting
+                </li>
+        </ul>
+    </aside>
+    <main class="main-container"> </main>
     </div>
-</header>
+
+    <script src="script.js" defer></script>
 </body>
 
 </html>
