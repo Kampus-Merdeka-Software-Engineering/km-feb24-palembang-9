@@ -69,6 +69,10 @@ body{
 
 }
 
+.sidebar-list .sidebar-list-item a {
+    color: #ffff;
+}
+
 .sidebar-list-item{
     padding: 20px 20px 20px 20px ;
 }
@@ -85,6 +89,18 @@ body{
 
 /* -----main------ */
 .main-container{
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+    grid-area: main;
+    overflow-y: auto;
+    justify-content: space-around; /* Menyebarkan card secara merata dengan ruang di sekitarnya */
+    align-items: flex-start; /* Menyelaraskan item ke awal kontainer */
+    flex-wrap: wrap; /* Memungkinkan item untuk bungkus ke baris berikutnya */
+    
+}
+
+.main-containerx{
     grid-area: main;
     overflow-y: auto;
     padding: 20px 20px;
@@ -105,9 +121,11 @@ body{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
     margin: 20px 0;
+    
 }
 
 .card{
+    width: calc(100% - 0px);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -117,6 +135,22 @@ body{
     border: 1px solid #d2d2d3;
     border-radius: 5px;
     box-shadow: 0 6px 7px -4px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+
+}
+
+.chart{
+    width: calc(50% - 10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #ffff;
+    box-sizing: border-box;
+    border: 1px solid #d2d2d3;
+    border-radius: 5px;
+    box-shadow: 0 6px 7px -4px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
 
 }
 
@@ -149,6 +183,13 @@ body{
 
 .card-inner >span {
     font-size:35px  ;
+}
+
+.chart-inner{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
 }
 
 /*** MEDIA QUERIES ***/
@@ -185,3 +226,12 @@ grid-template-areas:
     }
 }
 
+#loader{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    overflow: visible;
+    background: #fff url('load.gif') no-repeat center center ;
+
+}

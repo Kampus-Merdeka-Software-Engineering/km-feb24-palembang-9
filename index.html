@@ -10,8 +10,12 @@
 
     <link rel="stylesheet" href="styles.css">
 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 </head>
 <body>
+    <div id="loader"></div>
+
     <div class="grid-container">
     <header class="header"> 
         <div class="menu-icon" onclick="openSidebar()">
@@ -35,59 +39,80 @@
         </div>
         <ul class="sidebar-list">
             <li class="sidebar-list-item">
-                <span class="material-icons-outlined">dashboard</span> Dashboard 
+                <span class="material-icons-outlined">dashboard</span><a href="index.html">Dashboard</a>
             </li>
             <li class="sidebar-list-item">
-                <span class="material-icons-outlined">production_quantity_limits</span>Product
-            </li>
+                <span class="material-icons-outlined">contact_page</span><a href="contactus.html">Contact US</a>
+            </li> 
             <li class="sidebar-list-item">
-                <span class="material-icons-outlined">inventory</span>Inventory 
+                <span class="material-icons-outlined">local_atm</span><a href="Analytic.html">Analytic</a>
+
             </li>
-            <li class="sidebar-list-item">
-                <span class="material-icons-outlined">shopping_cart</span>Purchase_Order
-            </li>
-                <li class="sidebar-list-item">
-                    <span class="material-icons-outlined">local_atm</span>Sales_Order
-                </li>
-                <li class="sidebar-list-item">
-                <span class="material-icons-outlined">settings_applications</span>Setting
-                </li>
         </ul>
     </aside>
-       <main class="main-container">
+
+    <main class="main-containerx">
     <div class="main-tittle">
     <p class="font-weight-bold ">DASHBOARD</p>
     </div>
+
     <div class="main-cards">
-
         <div class="card">
-    <div class="card-inner">
-        <p class="text-primary">PRODUCTS</p>
-        <span class="material-icons-outlined text blue">inventory_2</span>
-    </div>
-    <span class="text-primary font-weight-bold"> 249 </span>
-    </div>
-
-    <div class="card">
-        <div class="card-inner">
-            <p class="text-primary">PURCHASE ORDER </p>
-            <span class="material-icons-outlined text orange">add_shopping_cart</span>
+          <div class="card-inner">
+            <p class="text-primary">PRODUCTS</p>
+            <span class="material-icons-outlined text-blue">inventory_2</span>
+          </div>
+          <span class="text-primary font-weight-bold">0</span>  </div>
+      
+        <div class="card">
+          <div class="card-inner">
+            <p class="text-primary">PURCHASE ORDER</p> <span class="material-icons-outlined text-orange">add_shopping_cart</span>
+          </div>
+          <span class="text-primary font-weight-bold">0</span>
         </div>
-        <span class="text-primary font-weight-bold"> 83</span>
+      
+        <div class="card">
+          <div class="card-inner">
+            <p class="text-primary">SALES ORDER</p>
+            <span class="material-icons-outlined text-green">shopping_cart</span>
+          </div>
+          <span class="text-primary font-weight-bold">0</span>
         </div>
-
+        
         <div class="card">
             <div class="card-inner">
-                <p class="text-primary">SALES ORDER </p>
-                <span class="material-icons-outlined text green">shopping_cart</span>
+              <p class="text-primary">INVENTORY</p>
+              <span class="material-icons-outlined text-green">inventory</span>
             </div>
-            <span class="text-primary font-weight-bold"> 79 </span>
-            </div> 
-    </div>
-    </main>
-    </div>
+            <span class="text-primary font-weight-bold">0</span>
+          </div>
+      </div>
+
+      <main class="main-container">
+        <!-- Judul DASHBOARD -->    
+        <!-- Chart PRODUCTS -->
+        <div class="chart">
+            <p class="text-primary">PRODUCTS</p>
+            <div class="chart-inner">
+                <canvas id="productsChart"></canvas>
+            </div>
+        </div>
     
+        <!-- Chart PURCHASE ORDER -->
+        <div class="chart">
+            <p class="text-primary">PURCHASE ORDER</p>
+            <div class="chart-inner">
+                <canvas id="purchaseOrderChart"></canvas>
+            </div>
+        </div>
+      </main>
+    </main>
+
+
     <script src="script.js" defer></script>
+
+    
 </body>
 
 </html>
+

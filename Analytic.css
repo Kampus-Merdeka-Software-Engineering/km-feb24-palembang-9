@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F3F3FB;
+    color: #333;
+}
+
+.header-box {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px 0;
+    padding: 10px 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 800;
+    padding: 10px 40px 10px 20px;
+
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px 10px 20px;
+    flex-direction: column;
+}
+
+.about-us {
+    font-size: 15px;
+    font-weight: 700;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.overview-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1200px;
+    margin: 0.5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.ovr-text {
+    max-width: 100%;
+    text-align: left;
+    margin-bottom: 20px; 
+    
+}
+
+.ovr-text h2 {
+    font-size: 28px;
+    margin-top: 5px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    padding: 10px 20px 0px 20px; 
+    display: flex;
+}
+
+.ovr-text p {
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.5;
+    padding: 0px 40px 10px 20px; 
+    display: flex;
+}
+
+.ovr-image {
+    width: 100%;
+    max-width: 100%; 
+    display: flex;
+    justify-content: center; 
+}
+
+.ovr-image img {
+    width: 90%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px; 
+    display: block; 
+    object-fit: cover; 
+}
+
+.analytics-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1200px;
+    margin: 23px auto;
+}
+
+.anyhead-text h2 {
+    font-size: 28px;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0px 20px 0px 20px; 
+}
+
+.metrics1 {
+    background-color: #ffffff;
+    padding: 36px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.7); 
+    width: 90%;
+    max-width: 1200px;
+    margin: 35px auto; 
+    
+}
+
+.metrics2 {
+    background-color: #ffffff;
+    padding: 36px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.7); 
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto; 
+}
+
+.metrics3{
+    background-color: #ffffff;
+    padding: 36px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.7); 
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto; 
+}
+
+.metrics-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.metrics-content .text-content {
+    flex-grow: 1;
+    margin-right: 20px; 
+}
+
+.metrics1 h3 {
+    font-size: 35px;
+    margin-top: 1px;
+    font-weight: 800;
+    margin-bottom: 1px;
+    padding: 20px 30px; 
+}
+
+.metrics2 h3 {
+    font-size: 35px;
+    margin-top: 1px;
+    font-weight: 800;
+    margin-bottom: 1px;
+    padding: 20px 30px; 
+}
+
+.metrics3 h3 {
+    font-size: 35px;
+    margin-top: 1px;
+    font-weight: 800;
+    margin-bottom: 1px;
+    padding: 20px 30px; 
+}
+
+.chart1 {
+    width: 57%; 
+    max-width: 100%; 
+
+}
+
+.chart2 {
+    width: 57%; 
+    max-width: 100%; 
+}
+
+.chart3 {
+    width: 57%; 
+    max-width: 100%; 
+}
+
+.metrics1 p {
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.5;
+    padding: 0px 30px; 
+}
+
+.metrics2 p {
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.5;
+    padding: 0px 30px; 
+}
+
+.metrics3 p {
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.5;
+    padding: 0px 30px; 
+}

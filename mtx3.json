@@ -1,0 +1,16 @@
+[{
+  "BOROUGH": "Manhattan",
+  "Count": "6646"
+}, {
+  "BOROUGH": "Queens",
+  "Count": "19380"
+}, {
+  "BOROUGH": "Staten Island",
+  "Count": "5025"
+}, {
+  "BOROUGH": "Bronx",
+  "Count": "5561"
+}, {
+  "BOROUGH": "Brooklyn",
+  "Count": "22031"
+}]
