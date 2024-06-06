@@ -1,0 +1,961 @@
+[{
+  "NEIGHBORHOOD": "SOHO",
+  "average_sale_price": "400000.0",
+  "Count": "1"
+}, {
+  "NEIGHBORHOOD": "CORONA",
+  "average_sale_price": "1922390.7021739148",
+  "Count": "460"
+}, {
+  "NEIGHBORHOOD": "HOLLIS",
+  "average_sale_price": "671712.74285714293",
+  "Count": "315"
+}, {
+  "NEIGHBORHOOD": "INWOOD",
+  "average_sale_price": "1601968.6",
+  "Count": "5"
+}, {
+  "NEIGHBORHOOD": "TRAVIS",
+  "average_sale_price": "583815.94230769225",
+  "Count": "52"
+}, {
+  "NEIGHBORHOOD": "ARVERNE",
+  "average_sale_price": "634439.72483221476",
+  "Count": "149"
+}, {
+  "NEIGHBORHOOD": "ASTORIA",
+  "average_sale_price": "3221997.9857346662",
+  "Count": "701"
+}, {
+  "NEIGHBORHOOD": "BAYSIDE",
+  "average_sale_price": "1312857.825274724",
+  "Count": "910"
+}, {
+  "NEIGHBORHOOD": "BELMONT",
+  "average_sale_price": "2050130.9069767452",
+  "Count": "43"
+}, {
+  "NEIGHBORHOOD": "CHELSEA",
+  "average_sale_price": "1430500.0000000002",
+  "Count": "8"
+}, {
+  "NEIGHBORHOOD": "CLINTON",
+  "average_sale_price": "400000.0",
+  "Count": "3"
+}, {
+  "NEIGHBORHOOD": "CONCORD",
+  "average_sale_price": "549813.10126582265",
+  "Count": "79"
+}, {
+  "NEIGHBORHOOD": "FASHION",
+  "average_sale_price": "1432500.0",
+  "Count": "2"
+}, {
+  "NEIGHBORHOOD": "FORDHAM",
+  "average_sale_price": "736611.56521739135",
+  "Count": "46"
+}, {
+  "NEIGHBORHOOD": "GOWANUS",
+  "average_sale_price": "1543364.7358490562",
+  "Count": "159"
+}, {
+  "NEIGHBORHOOD": "HAMMELS",
+  "average_sale_price": "1096436.5312500005",
+  "Count": "64"
+}, {
+  "NEIGHBORHOOD": "JAMAICA",
+  "average_sale_price": "1848269.3703703699",
+  "Count": "216"
+}, {
+  "NEIGHBORHOOD": "MADISON",
+  "average_sale_price": "820018.679900744",
+  "Count": "403"
+}, {
+  "NEIGHBORHOOD": "MASPETH",
+  "average_sale_price": "1909430.2891566274",
+  "Count": "249"
+}, {
+  "NEIGHBORHOOD": "MIDWOOD",
+  "average_sale_price": "1444639.0714285725",
+  "Count": "434"
+}, {
+  "NEIGHBORHOOD": "OAKWOOD",
+  "average_sale_price": "699699.81481481472",
+  "Count": "27"
+}, {
+  "NEIGHBORHOOD": "SEAGATE",
+  "average_sale_price": "744202.29230769211",
+  "Count": "65"
+}, {
+  "NEIGHBORHOOD": "TRIBECA",
+  "average_sale_price": "5516.4830508474579",
+  "Count": "236"
+}, {
+  "NEIGHBORHOOD": "WOODROW",
+  "average_sale_price": "753417.12903225771",
+  "Count": "93"
+}, {
+  "NEIGHBORHOOD": "ANNADALE",
+  "average_sale_price": "879351.50000000023",
+  "Count": "110"
+}, {
+  "NEIGHBORHOOD": "ARROCHAR",
+  "average_sale_price": "676782.60869565234",
+  "Count": "23"
+}, {
+  "NEIGHBORHOOD": "BATHGATE",
+  "average_sale_price": "995911.17948717927",
+  "Count": "39"
+}, {
+  "NEIGHBORHOOD": "BUSHWICK",
+  "average_sale_price": "1363962.1050477491",
+  "Count": "733"
+}, {
+  "NEIGHBORHOOD": "CANARSIE",
+  "average_sale_price": "521984.51096774137",
+  "Count": "775"
+}, {
+  "NEIGHBORHOOD": "ELMHURST",
+  "average_sale_price": "1886454.9561403512",
+  "Count": "570"
+}, {
+  "NEIGHBORHOOD": "FLATIRON",
+  "average_sale_price": "1256666.6666666665",
+  "Count": "3"
+}, {
+  "NEIGHBORHOOD": "GLENDALE",
+  "average_sale_price": "1297285.0034602082",
+  "Count": "289"
+}, {
+  "NEIGHBORHOOD": "GRAMERCY",
+  "average_sale_price": "400000.0",
+  "Count": "2"
+}, {
+  "NEIGHBORHOOD": "GRASMERE",
+  "average_sale_price": "751591.48148148158",
+  "Count": "54"
+}, {
+  "NEIGHBORHOOD": "HUGUENOT",
+  "average_sale_price": "998773.49425287335",
+  "Count": "87"
+}, {
+  "NEIGHBORHOOD": "NEPONSIT",
+  "average_sale_price": "1865078.6818181819",
+  "Count": "22"
+}, {
+  "NEIGHBORHOOD": "NEW DORP",
+  "average_sale_price": "693437.71962616814",
+  "Count": "107"
+}, {
+  "NEIGHBORHOOD": "RED HOOK",
+  "average_sale_price": "1512652.2586206896",
+  "Count": "58"
+}, {
+  "NEIGHBORHOOD": "ROSEBANK",
+  "average_sale_price": "674365.84482758644",
+  "Count": "116"
+}, {
+  "NEIGHBORHOOD": "ROSEDALE",
+  "average_sale_price": "672055.04844290623",
+  "Count": "289"
+}, {
+  "NEIGHBORHOOD": "WOODLAWN",
+  "average_sale_price": "552920.686746988",
+  "Count": "83"
+}, {
+  "NEIGHBORHOOD": "WOODSIDE",
+  "average_sale_price": "2092208.2839506168",
+  "Count": "81"
+}, {
+  "NEIGHBORHOOD": "BAY RIDGE",
+  "average_sale_price": "2456019.0977443596",
+  "Count": "798"
+}, {
+  "NEIGHBORHOOD": "BELLEROSE",
+  "average_sale_price": "756095.04487179476",
+  "Count": "156"
+}, {
+  "NEIGHBORHOOD": "BRIARWOOD",
+  "average_sale_price": "1000157.4385964911",
+  "Count": "171"
+}, {
+  "NEIGHBORHOOD": "BRONXDALE",
+  "average_sale_price": "583406.33617021283",
+  "Count": "235"
+}, {
+  "NEIGHBORHOOD": "CHINATOWN",
+  "average_sale_price": "400000.0",
+  "Count": "1"
+}, {
+  "NEIGHBORHOOD": "FIELDSTON",
+  "average_sale_price": "1024042.5769230769",
+  "Count": "26"
+}, {
+  "NEIGHBORHOOD": "FLATLANDS",
+  "average_sale_price": "599413.97435897461",
+  "Count": "234"
+}, {
+  "NEIGHBORHOOD": "GLEN OAKS",
+  "average_sale_price": "1567859.9632768359",
+  "Count": "354"
+}, {
+  "NEIGHBORHOOD": "GRAVESEND",
+  "average_sale_price": "1073719.8302158276",
+  "Count": "695"
+}, {
+  "NEIGHBORHOOD": "HILLCREST",
+  "average_sale_price": "1472125.6747967484",
+  "Count": "123"
+}, {
+  "NEIGHBORHOOD": "LAURELTON",
+  "average_sale_price": "825862.291338582",
+  "Count": "254"
+}, {
+  "NEIGHBORHOOD": "NAVY YARD",
+  "average_sale_price": "770944.12903225818",
+  "Count": "31"
+}, {
+  "NEIGHBORHOOD": "REGO PARK",
+  "average_sale_price": "17004494.07075474",
+  "Count": "636"
+}, {
+  "NEIGHBORHOOD": "RIDGEWOOD",
+  "average_sale_price": "2896232.3448275859",
+  "Count": "174"
+}, {
+  "NEIGHBORHOOD": "RIVERDALE",
+  "average_sale_price": "661568.7622047246",
+  "Count": "635"
+}, {
+  "NEIGHBORHOOD": "ROSSVILLE",
+  "average_sale_price": "840816.25510204083",
+  "Count": "98"
+}, {
+  "NEIGHBORHOOD": "SOUNDVIEW",
+  "average_sale_price": "473131.28834355809",
+  "Count": "489"
+}, {
+  "NEIGHBORHOOD": "STAPLETON",
+  "average_sale_price": "690447.61728395068",
+  "Count": "81"
+}, {
+  "NEIGHBORHOOD": "SUNNYSIDE",
+  "average_sale_price": "1816486.6382978717",
+  "Count": "94"
+}, {
+  "NEIGHBORHOOD": "TODT HILL",
+  "average_sale_price": "11573998.703703705",
+  "Count": "27"
+}, {
+  "NEIGHBORHOOD": "WAKEFIELD",
+  "average_sale_price": "568129.58008658",
+  "Count": "231"
+}, {
+  "NEIGHBORHOOD": "WOODHAVEN",
+  "average_sale_price": "784484.56993007",
+  "Count": "286"
+}, {
+  "NEIGHBORHOOD": "BATH BEACH",
+  "average_sale_price": "1154702.7908745247",
+  "Count": "263"
+}, {
+  "NEIGHBORHOOD": "BAYCHESTER",
+  "average_sale_price": "733954.44694533723",
+  "Count": "311"
+}, {
+  "NEIGHBORHOOD": "BEECHHURST",
+  "average_sale_price": "1295688.945454546",
+  "Count": "165"
+}, {
+  "NEIGHBORHOOD": "BRONX PARK",
+  "average_sale_price": "709000.0",
+  "Count": "1"
+}, {
+  "NEIGHBORHOOD": "BULLS HEAD",
+  "average_sale_price": "695049.34101382433",
+  "Count": "217"
+}, {
+  "NEIGHBORHOOD": "CO-OP CITY",
+  "average_sale_price": "480666.66666666669",
+  "Count": "3"
+}, {
+  "NEIGHBORHOOD": "DOUGLASTON",
+  "average_sale_price": "1415126.9541666671",
+  "Count": "240"
+}, {
+  "NEIGHBORHOOD": "GRANT CITY",
+  "average_sale_price": "713009.19402985089",
+  "Count": "67"
+}, {
+  "NEIGHBORHOOD": "GREENPOINT",
+  "average_sale_price": "3053499.3888888881",
+  "Count": "378"
+}, {
+  "NEIGHBORHOOD": "HOLLISWOOD",
+  "average_sale_price": "1625556.1770833335",
+  "Count": "96"
+}, {
+  "NEIGHBORHOOD": "KENSINGTON",
+  "average_sale_price": "1403923.5882352942",
+  "Count": "153"
+}, {
+  "NEIGHBORHOOD": "LIVINGSTON",
+  "average_sale_price": "678350.956521739",
+  "Count": "23"
+}, {
+  "NEIGHBORHOOD": "MILL BASIN",
+  "average_sale_price": "2693324.3461538469",
+  "Count": "130"
+}, {
+  "NEIGHBORHOOD": "OCEAN HILL",
+  "average_sale_price": "1424219.162666668",
+  "Count": "375"
+}, {
+  "NEIGHBORHOOD": "OZONE PARK",
+  "average_sale_price": "1533219.8505154639",
+  "Count": "388"
+}, {
+  "NEIGHBORHOOD": "PARK SLOPE",
+  "average_sale_price": "3448498.7134831413",
+  "Count": "534"
+}, {
+  "NEIGHBORHOOD": "PELHAM BAY",
+  "average_sale_price": "400000.0",
+  "Count": "1"
+}, {
+  "NEIGHBORHOOD": "PORT IVORY",
+  "average_sale_price": "488234.00000000006",
+  "Count": "35"
+}, {
+  "NEIGHBORHOOD": "ST. ALBANS",
+  "average_sale_price": "619932.81609195471",
+  "Count": "435"
+}, {
+  "NEIGHBORHOOD": "WHITESTONE",
+  "average_sale_price": "1863625.7462686568",
+  "Count": "201"
+}, {
+  "NEIGHBORHOOD": "BENSONHURST",
+  "average_sale_price": "1811076.2154398572",
+  "Count": "557"
+}, {
+  "NEIGHBORHOOD": "BOERUM HILL",
+  "average_sale_price": "2319284.2621951215",
+  "Count": "164"
+}, {
+  "NEIGHBORHOOD": "BROWNSVILLE",
+  "average_sale_price": "616089.26576576545",
+  "Count": "222"
+}, {
+  "NEIGHBORHOOD": "CITY ISLAND",
+  "average_sale_price": "842983.67741935456",
+  "Count": "62"
+}, {
+  "NEIGHBORHOOD": "CLOVE LAKES",
+  "average_sale_price": "748335.25000000035",
+  "Count": "72"
+}, {
+  "NEIGHBORHOOD": "COBBLE HILL",
+  "average_sale_price": "1271455.973451328",
+  "Count": "113"
+}, {
+  "NEIGHBORHOOD": "ELTINGVILLE",
+  "average_sale_price": "708374.44855967106",
+  "Count": "243"
+}, {
+  "NEIGHBORHOOD": "FLORAL PARK",
+  "average_sale_price": "838910.153846154",
+  "Count": "130"
+}, {
+  "NEIGHBORHOOD": "FORT GREENE",
+  "average_sale_price": "2438266.80104712",
+  "Count": "191"
+}, {
+  "NEIGHBORHOOD": "FRESH KILLS",
+  "average_sale_price": "465000.0",
+  "Count": "2"
+}, {
+  "NEIGHBORHOOD": "GREAT KILLS",
+  "average_sale_price": "670954.48240165552",
+  "Count": "483"
+}, {
+  "NEIGHBORHOOD": "GRYMES HILL",
+  "average_sale_price": "811889.86842105282",
+  "Count": "38"
+}, {
+  "NEIGHBORHOOD": "HARLEM-EAST",
+  "average_sale_price": "54981154.8",
+  "Count": "20"
+}, {
+  "NEIGHBORHOOD": "HARLEM-WEST",
+  "average_sale_price": "6524375.0",
+  "Count": "4"
+}, {
+  "NEIGHBORHOOD": "HUNTS POINT",
+  "average_sale_price": "2406688.5789473685",
+  "Count": "38"
+}, {
+  "NEIGHBORHOOD": "JAMAICA BAY",
+  "average_sale_price": "1039173.6842105264",
+  "Count": "19"
+}, {
+  "NEIGHBORHOOD": "KEW GARDENS",
+  "average_sale_price": "2630298.4012345672",
+  "Count": "324"
+}, {
+  "NEIGHBORHOOD": "LITTLE NECK",
+  "average_sale_price": "3324650.4419642868",
+  "Count": "224"
+}, {
+  "NEIGHBORHOOD": "MARINE PARK",
+  "average_sale_price": "626143.20654911874",
+  "Count": "397"
+}, {
+  "NEIGHBORHOOD": "MURRAY HILL",
+  "average_sale_price": "787500.0",
+  "Count": "1"
+}, {
+  "NEIGHBORHOOD": "PARKCHESTER",
+  "average_sale_price": "485876.12612612604",
+  "Count": "333"
+}, {
+  "NEIGHBORHOOD": "PRINCES BAY",
+  "average_sale_price": "1101420.1386138618",
+  "Count": "101"
+}, {
+  "NEIGHBORHOOD": "SILVER LAKE",
+  "average_sale_price": "768385.84615384613",
+  "Count": "39"
+}, {
+  "NEIGHBORHOOD": "SOUTH BEACH",
+  "average_sale_price": "659551.02395209554",
+  "Count": "167"
+}, {
+  "NEIGHBORHOOD": "SUNSET PARK",
+  "average_sale_price": "1779055.7677642978",
+  "Count": "577"
+}, {
+  "NEIGHBORHOOD": "THROGS NECK",
+  "average_sale_price": "508435.32571428572",
+  "Count": "350"
+}, {
+  "NEIGHBORHOOD": "TOTTENVILLE",
+  "average_sale_price": "852587.07692307676",
+  "Count": "169"
+}, {
+  "NEIGHBORHOOD": "WESTCHESTER",
+  "average_sale_price": "515605.72992700717",
+  "Count": "137"
+}, {
+  "NEIGHBORHOOD": "WESTERLEIGH",
+  "average_sale_price": "707853.20689655177",
+  "Count": "174"
+}, {
+  "NEIGHBORHOOD": "WILLOWBROOK",
+  "average_sale_price": "777700.55555555562",
+  "Count": "117"
+}, {
+  "NEIGHBORHOOD": "BELLE HARBOR",
+  "average_sale_price": "3482492.3095238116",
+  "Count": "84"
+}, {
+  "NEIGHBORHOOD": "BERGEN BEACH",
+  "average_sale_price": "591510.23195876251",
+  "Count": "194"
+}, {
+  "NEIGHBORHOOD": "BOROUGH PARK",
+  "average_sale_price": "1561253.9700085712",
+  "Count": "1167"
+}, {
+  "NEIGHBORHOOD": "CLINTON HILL",
+  "average_sale_price": "2196658.0447761212",
+  "Count": "335"
+}, {
+  "NEIGHBORHOOD": "CONEY ISLAND",
+  "average_sale_price": "563252.76171875",
+  "Count": "256"
+}, {
+  "NEIGHBORHOOD": "COUNTRY CLUB",
+  "average_sale_price": "682293.80833333358",
+  "Count": "120"
+}, {
+  "NEIGHBORHOOD": "CROTONA PARK",
+  "average_sale_price": "896261.12820512813",
+  "Count": "39"
+}, {
+  "NEIGHBORHOOD": "DONGAN HILLS",
+  "average_sale_price": "831173.44642857125",
+  "Count": "56"
+}, {
+  "NEIGHBORHOOD": "EAST TREMONT",
+  "average_sale_price": "1627625.3925233644",
+  "Count": "107"
+}, {
+  "NEIGHBORHOOD": "EAST VILLAGE",
+  "average_sale_price": "400000.0",
+  "Count": "1"
+}, {
+  "NEIGHBORHOOD": "EMERSON HILL",
+  "average_sale_price": "1423773.4166666665",
+  "Count": "12"
+}, {
+  "NEIGHBORHOOD": "FAR ROCKAWAY",
+  "average_sale_price": "833826.77917981124",
+  "Count": "317"
+}, {
+  "NEIGHBORHOOD": "FOREST HILLS",
+  "average_sale_price": "2016491.4946581209",
+  "Count": "936"
+}, {
+  "NEIGHBORHOOD": "HARLEM-UPPER",
+  "average_sale_price": "3556069.4444444445",
+  "Count": "18"
+}, {
+  "NEIGHBORHOOD": "HOLLIS HILLS",
+  "average_sale_price": "1570594.5106382982",
+  "Count": "47"
+}, {
+  "NEIGHBORHOOD": "HOWARD BEACH",
+  "average_sale_price": "1471165.768421052",
+  "Count": "475"
+}, {
+  "NEIGHBORHOOD": "MIDTOWN EAST",
+  "average_sale_price": "2979788.3333333335",
+  "Count": "3"
+}, {
+  "NEIGHBORHOOD": "MIDTOWN WEST",
+  "average_sale_price": "421575.36619718315",
+  "Count": "71"
+}, {
+  "NEIGHBORHOOD": "NEW BRIGHTON",
+  "average_sale_price": "645912.65384615387",
+  "Count": "130"
+}, {
+  "NEIGHBORHOOD": "RICHMONDTOWN",
+  "average_sale_price": "1209928.416666666",
+  "Count": "60"
+}, {
+  "NEIGHBORHOOD": "SPRING CREEK",
+  "average_sale_price": "572209.01470588206",
+  "Count": "68"
+}, {
+  "NEIGHBORHOOD": "ARDEN HEIGHTS",
+  "average_sale_price": "578080.15111111163",
+  "Count": "225"
+}, {
+  "NEIGHBORHOOD": "BROAD CHANNEL",
+  "average_sale_price": "560485.2571428573",
+  "Count": "35"
+}, {
+  "NEIGHBORHOOD": "BUSH TERMINAL",
+  "average_sale_price": "741844.76666666672",
+  "Count": "60"
+}, {
+  "NEIGHBORHOOD": "COLLEGE POINT",
+  "average_sale_price": "1147290.4565826328",
+  "Count": "357"
+}, {
+  "NEIGHBORHOOD": "CROWN HEIGHTS",
+  "average_sale_price": "2034885.2000000002",
+  "Count": "730"
+}, {
+  "NEIGHBORHOOD": "CYPRESS HILLS",
+  "average_sale_price": "865997.40769230749",
+  "Count": "390"
+}, {
+  "NEIGHBORHOOD": "DYKER HEIGHTS",
+  "average_sale_price": "1430688.193750001",
+  "Count": "320"
+}, {
+  "NEIGHBORHOOD": "EAST ELMHURST",
+  "average_sale_price": "1104480.6250000005",
+  "Count": "184"
+}, {
+  "NEIGHBORHOOD": "EAST NEW YORK",
+  "average_sale_price": "603191.3084886116",
+  "Count": "966"
+}, {
+  "NEIGHBORHOOD": "FLATBUSH-EAST",
+  "average_sale_price": "631352.93645083858",
+  "Count": "834"
+}, {
+  "NEIGHBORHOOD": "FRESH MEADOWS",
+  "average_sale_price": "1387477.4766355145",
+  "Count": "107"
+}, {
+  "NEIGHBORHOOD": "JAMAICA HILLS",
+  "average_sale_price": "1400422.618421053",
+  "Count": "76"
+}, {
+  "NEIGHBORHOOD": "MANOR HEIGHTS",
+  "average_sale_price": "743623.25263157918",
+  "Count": "95"
+}, {
+  "NEIGHBORHOOD": "MIDLAND BEACH",
+  "average_sale_price": "601538.486772487",
+  "Count": "189"
+}, {
+  "NEIGHBORHOOD": "OAKWOOD-BEACH",
+  "average_sale_price": "669716.77083333326",
+  "Count": "48"
+}, {
+  "NEIGHBORHOOD": "PORT RICHMOND",
+  "average_sale_price": "549422.58959537582",
+  "Count": "173"
+}, {
+  "NEIGHBORHOOD": "RICHMOND HILL",
+  "average_sale_price": "954561.01541850239",
+  "Count": "454"
+}, {
+  "NEIGHBORHOOD": "ROCKAWAY PARK",
+  "average_sale_price": "787558.70967741939",
+  "Count": "31"
+}, {
+  "NEIGHBORHOOD": "SOUTH JAMAICA",
+  "average_sale_price": "597313.15094339638",
+  "Count": "371"
+}, {
+  "NEIGHBORHOOD": "TOMPKINSVILLE",
+  "average_sale_price": "831406.60869565222",
+  "Count": "23"
+}, {
+  "NEIGHBORHOOD": "BRIGHTON BEACH",
+  "average_sale_price": "715112.36507936474",
+  "Count": "504"
+}, {
+  "NEIGHBORHOOD": "FLATBUSH-NORTH",
+  "average_sale_price": "657630.91666666663",
+  "Count": "396"
+}, {
+  "NEIGHBORHOOD": "FLUSHING-NORTH",
+  "average_sale_price": "1607017.6723862765",
+  "Count": "2506"
+}, {
+  "NEIGHBORHOOD": "FLUSHING-SOUTH",
+  "average_sale_price": "1348994.3587684068",
+  "Count": "747"
+}, {
+  "NEIGHBORHOOD": "HARLEM-CENTRAL",
+  "average_sale_price": "18539101.130434789",
+  "Count": "46"
+}, {
+  "NEIGHBORHOOD": "MIDDLE VILLAGE",
+  "average_sale_price": "1763498.0380952382",
+  "Count": "315"
+}, {
+  "NEIGHBORHOOD": "NEW DORP-BEACH",
+  "average_sale_price": "559444.69879518077",
+  "Count": "83"
+}, {
+  "NEIGHBORHOOD": "OLD MILL BASIN",
+  "average_sale_price": "570127.71541501966",
+  "Count": "253"
+}, {
+  "NEIGHBORHOOD": "PELHAM GARDENS",
+  "average_sale_price": "681095.44642857125",
+  "Count": "56"
+}, {
+  "NEIGHBORHOOD": "QUEENS VILLAGE",
+  "average_sale_price": "2003858.6441441432",
+  "Count": "444"
+}, {
+  "NEIGHBORHOOD": "SHEEPSHEAD BAY",
+  "average_sale_price": "748387.49949950026",
+  "Count": "999"
+}, {
+  "NEIGHBORHOOD": "WILLIAMSBRIDGE",
+  "average_sale_price": "545238.19861431874",
+  "Count": "433"
+}, {
+  "NEIGHBORHOOD": "CAMBRIA HEIGHTS",
+  "average_sale_price": "574584.4857142854",
+  "Count": "140"
+}, {
+  "NEIGHBORHOOD": "CARROLL GARDENS",
+  "average_sale_price": "2126672.1538461545",
+  "Count": "130"
+}, {
+  "NEIGHBORHOOD": "GERRITSEN BEACH",
+  "average_sale_price": "515319.56910569081",
+  "Count": "123"
+}, {
+  "NEIGHBORHOOD": "JACKSON HEIGHTS",
+  "average_sale_price": "1987700.9765432104",
+  "Count": "810"
+}, {
+  "NEIGHBORHOOD": "JAMAICA ESTATES",
+  "average_sale_price": "2464592.9799999991",
+  "Count": "100"
+}, {
+  "NEIGHBORHOOD": "MANHATTAN BEACH",
+  "average_sale_price": "3210578.7586206887",
+  "Count": "87"
+}, {
+  "NEIGHBORHOOD": "MARINERS HARBOR",
+  "average_sale_price": "556123.0898203589",
+  "Count": "167"
+}, {
+  "NEIGHBORHOOD": "NEW SPRINGVILLE",
+  "average_sale_price": "715316.28421052638",
+  "Count": "190"
+}, {
+  "NEIGHBORHOOD": "OAKLAND GARDENS",
+  "average_sale_price": "4563869.576407508",
+  "Count": "373"
+}, {
+  "NEIGHBORHOOD": "PLEASANT PLAINS",
+  "average_sale_price": "1253982.0000000002",
+  "Count": "42"
+}, {
+  "NEIGHBORHOOD": "WINDSOR TERRACE",
+  "average_sale_price": "3934735.2085889587",
+  "Count": "163"
+}, {
+  "NEIGHBORHOOD": "WYCKOFF HEIGHTS",
+  "average_sale_price": "1771923.3617021278",
+  "Count": "94"
+}, {
+  "NEIGHBORHOOD": "BROOKLYN HEIGHTS",
+  "average_sale_price": "1941710.1451612921",
+  "Count": "248"
+}, {
+  "NEIGHBORHOOD": "COBBLE HILL-WEST",
+  "average_sale_price": "1420226.5479452058",
+  "Count": "73"
+}, {
+  "NEIGHBORHOOD": "FLATBUSH-CENTRAL",
+  "average_sale_price": "1265544.9874999998",
+  "Count": "480"
+}, {
+  "NEIGHBORHOOD": "LONG ISLAND CITY",
+  "average_sale_price": "3314112.4298642548",
+  "Count": "442"
+}, {
+  "NEIGHBORHOOD": "MANHATTAN VALLEY",
+  "average_sale_price": "522536.5",
+  "Count": "4"
+}, {
+  "NEIGHBORHOOD": "NEW DORP-HEIGHTS",
+  "average_sale_price": "919160.333333333",
+  "Count": "69"
+}, {
+  "NEIGHBORHOOD": "PARK SLOPE SOUTH",
+  "average_sale_price": "2143329.9570552148",
+  "Count": "163"
+}, {
+  "NEIGHBORHOOD": "PROSPECT HEIGHTS",
+  "average_sale_price": "1984651.2215568856",
+  "Count": "334"
+}, {
+  "NEIGHBORHOOD": "SOUTH OZONE PARK",
+  "average_sale_price": "653073.02099737525",
+  "Count": "381"
+}, {
+  "NEIGHBORHOOD": "CASTLETON CORNERS",
+  "average_sale_price": "689691.525773196",
+  "Count": "97"
+}, {
+  "NEIGHBORHOOD": "CONCORD-FOX HILLS",
+  "average_sale_price": "521427.61111111112",
+  "Count": "18"
+}, {
+  "NEIGHBORHOOD": "MELROSE/CONCOURSE",
+  "average_sale_price": "650064.00666666683",
+  "Count": "150"
+}, {
+  "NEIGHBORHOOD": "STAPLETON-CLIFTON",
+  "average_sale_price": "581196.73584905663",
+  "Count": "53"
+}, {
+  "NEIGHBORHOOD": "WEST NEW BRIGHTON",
+  "average_sale_price": "632100.48571428552",
+  "Count": "210"
+}, {
+  "NEIGHBORHOOD": "WILLIAMSBURG-EAST",
+  "average_sale_price": "1915720.0429292934",
+  "Count": "396"
+}, {
+  "NEIGHBORHOOD": "AIRPORT LA GUARDIA",
+  "average_sale_price": "1310199.9999999998",
+  "Count": "8"
+}, {
+  "NEIGHBORHOOD": "BEDFORD STUYVESANT",
+  "average_sale_price": "2204980.8052347954",
+  "Count": "1299"
+}, {
+  "NEIGHBORHOOD": "DOWNTOWN-METROTECH",
+  "average_sale_price": "1264060.6689655175",
+  "Count": "145"
+}, {
+  "NEIGHBORHOOD": "VAN CORTLANDT PARK",
+  "average_sale_price": "446400.0",
+  "Count": "2"
+}, {
+  "NEIGHBORHOOD": "WILLIAMSBURG-NORTH",
+  "average_sale_price": "2000753.11299435",
+  "Count": "354"
+}, {
+  "NEIGHBORHOOD": "WILLIAMSBURG-SOUTH",
+  "average_sale_price": "3759387.2479338883",
+  "Count": "363"
+}, {
+  "NEIGHBORHOOD": "DONGAN HILLS-COLONY",
+  "average_sale_price": "1473598.1025641023",
+  "Count": "39"
+}, {
+  "NEIGHBORHOOD": "MORRISANIA/LONGWOOD",
+  "average_sale_price": "966096.02136752137",
+  "Count": "234"
+}, {
+  "NEIGHBORHOOD": "OCEAN PARKWAY-NORTH",
+  "average_sale_price": "1403838.0169491519",
+  "Count": "531"
+}, {
+  "NEIGHBORHOOD": "OCEAN PARKWAY-SOUTH",
+  "average_sale_price": "1011934.8939393935",
+  "Count": "330"
+}, {
+  "NEIGHBORHOOD": "SPRINGFIELD GARDENS",
+  "average_sale_price": "634566.40942928032",
+  "Count": "403"
+}, {
+  "NEIGHBORHOOD": "ARROCHAR-SHORE ACRES",
+  "average_sale_price": "626231.28571428568",
+  "Count": "14"
+}, {
+  "NEIGHBORHOOD": "BEDFORD PARK/NORWOOD",
+  "average_sale_price": "644145.42657342635",
+  "Count": "143"
+}, {
+  "NEIGHBORHOOD": "DOWNTOWN-FULTON MALL",
+  "average_sale_price": "6372919.23",
+  "Count": "200"
+}, {
+  "NEIGHBORHOOD": "FLUSHING MEADOW PARK",
+  "average_sale_price": "1130000.0",
+  "Count": "16"
+}, {
+  "NEIGHBORHOOD": "MORRIS PARK/VAN NEST",
+  "average_sale_price": "652910.69587628858",
+  "Count": "194"
+}, {
+  "NEIGHBORHOOD": "PELHAM PARKWAY NORTH",
+  "average_sale_price": "675912.009708738",
+  "Count": "103"
+}, {
+  "NEIGHBORHOOD": "PELHAM PARKWAY SOUTH",
+  "average_sale_price": "458261.73076923063",
+  "Count": "104"
+}, {
+  "NEIGHBORHOOD": "ROSSVILLE-CHARLESTON",
+  "average_sale_price": "698820.789473684",
+  "Count": "38"
+}, {
+  "NEIGHBORHOOD": "ROSSVILLE-PORT MOBIL",
+  "average_sale_price": "2674500.0",
+  "Count": "2"
+}, {
+  "NEIGHBORHOOD": "WILLIAMSBURG-CENTRAL",
+  "average_sale_price": "1314752.7087719296",
+  "Count": "285"
+}, {
+  "NEIGHBORHOOD": "CASTLE HILL/UNIONPORT",
+  "average_sale_price": "618993.02608695661",
+  "Count": "115"
+}, {
+  "NEIGHBORHOOD": "DONGAN HILLS-OLD TOWN",
+  "average_sale_price": "586400.0",
+  "Count": "5"
+}, {
+  "NEIGHBORHOOD": "DOWNTOWN-FULTON FERRY",
+  "average_sale_price": "5881613.8630952341",
+  "Count": "168"
+}, {
+  "NEIGHBORHOOD": "MOUNT HOPE/MOUNT EDEN",
+  "average_sale_price": "798986.44680851069",
+  "Count": "47"
+}, {
+  "NEIGHBORHOOD": "GREENWICH VILLAGE-WEST",
+  "average_sale_price": "1966291.4",
+  "Count": "5"
+}, {
+  "NEIGHBORHOOD": "MOTT HAVEN/PORT MORRIS",
+  "average_sale_price": "1316085.3424657525",
+  "Count": "73"
+}, {
+  "NEIGHBORHOOD": "GREAT KILLS-BAY TERRACE",
+  "average_sale_price": "698263.97619047633",
+  "Count": "42"
+}, {
+  "NEIGHBORHOOD": "KINGSBRIDGE/JEROME PARK",
+  "average_sale_price": "576355.8410596028",
+  "Count": "151"
+}, {
+  "NEIGHBORHOOD": "UPPER EAST SIDE (59-79)",
+  "average_sale_price": "75467.387195121861",
+  "Count": "1640"
+}, {
+  "NEIGHBORHOOD": "UPPER EAST SIDE (79-96)",
+  "average_sale_price": "1625867.5669344077",
+  "Count": "1494"
+}, {
+  "NEIGHBORHOOD": "UPPER WEST SIDE (59-79)",
+  "average_sale_price": "185132.82795698949",
+  "Count": "1395"
+}, {
+  "NEIGHBORHOOD": "UPPER WEST SIDE (79-96)",
+  "average_sale_price": "217970.4792773645",
+  "Count": "941"
+}, {
+  "NEIGHBORHOOD": "CITY ISLAND-PELHAM STRIP",
+  "average_sale_price": "888470.0",
+  "Count": "1"
+}, {
+  "NEIGHBORHOOD": "FLATBUSH-LEFFERTS GARDEN",
+  "average_sale_price": "4443432.9477124186",
+  "Count": "153"
+}, {
+  "NEIGHBORHOOD": "KINGSBRIDGE HTS/UNIV HTS",
+  "average_sale_price": "513618.87640449434",
+  "Count": "89"
+}, {
+  "NEIGHBORHOOD": "SCHUYLERVILLE/PELHAM BAY",
+  "average_sale_price": "465593.42145593837",
+  "Count": "261"
+}, {
+  "NEIGHBORHOOD": "SO. JAMAICA-BAISLEY PARK",
+  "average_sale_price": "579458.38626609428",
+  "Count": "466"
+}, {
+  "NEIGHBORHOOD": "UPPER EAST SIDE (96-110)",
+  "average_sale_price": "1141668.8888888888",
+  "Count": "45"
+}, {
+  "NEIGHBORHOOD": "UPPER WEST SIDE (96-116)",
+  "average_sale_price": "227995.171686747",
+  "Count": "332"
+}, {
+  "NEIGHBORHOOD": "WASHINGTON HEIGHTS LOWER",
+  "average_sale_price": "467675.21698113193",
+  "Count": "106"
+}, {
+  "NEIGHBORHOOD": "WASHINGTON HEIGHTS UPPER",
+  "average_sale_price": "257365.25193798466",
+  "Count": "258"
+}, {
+  "NEIGHBORHOOD": "GREENWICH VILLAGE-CENTRAL",
+  "average_sale_price": "400000.0",
+  "Count": "1"
+}, {
+  "NEIGHBORHOOD": "HIGHBRIDGE/MORRIS HEIGHTS",
+  "average_sale_price": "907520.86842105247",
+  "Count": "76"
+}, {
+  "NEIGHBORHOOD": "RICHMONDTOWN-LIGHTHS HILL",
+  "average_sale_price": "1316862.75",
+  "Count": "8"
+}, {
+  "NEIGHBORHOOD": "ROSSVILLE-RICHMOND VALLEY",
+  "average_sale_price": "820000.0",
+  "Count": "7"
+}]

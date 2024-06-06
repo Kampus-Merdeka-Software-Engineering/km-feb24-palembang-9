@@ -42,12 +42,15 @@
                 <span class="material-icons-outlined">dashboard</span><a href="index.html">Dashboard</a>
             </li>
             <li class="sidebar-list-item">
-                <span class="material-icons-outlined">contact_page</span><a href="contactus.html">Contact US</a>
-            </li> 
-            <li class="sidebar-list-item">
                 <span class="material-icons-outlined">local_atm</span><a href="Analytic.html">Analytic</a>
 
             </li>
+            <li class="sidebar-list-item">
+                <span class="material-icons-outlined">contact_page</span><a href="contactus.html">Contact US</a>
+            </li>
+            <li class="sidebar-list-item">
+                <span class="material-icons-outlined">contact_page</span><a href="Team.html">Team</a>
+            </li>  
         </ul>
     </aside>
 
@@ -81,7 +84,7 @@
         
         <div class="card">
             <div class="card-inner">
-              <p class="text-primary">INVENTORY</p>
+              <p class="text-primary">inventory</p>
               <span class="material-icons-outlined text-green">inventory</span>
             </div>
             <span class="text-primary font-weight-bold">0</span>
@@ -93,16 +96,16 @@
         <!-- Chart PRODUCTS -->
         <div class="chart">
             <p class="text-primary">PRODUCTS</p>
-            <div class="chart-inner">
-                <canvas id="productsChart"></canvas>
+            <div class="chart1">
+                <canvas id="charts1"></canvas>
             </div>
         </div>
     
         <!-- Chart PURCHASE ORDER -->
         <div class="chart">
             <p class="text-primary">PURCHASE ORDER</p>
-            <div class="chart-inner">
-                <canvas id="purchaseOrderChart"></canvas>
+            <div class="chart2">
+                <canvas id="charts2"></canvas>
             </div>
         </div>
       </main>
@@ -110,6 +113,10 @@
 
 
     <script src="script.js" defer></script>
+    <script src="Analytic.css" defer></script>
+    <script src="charting.js"></script>
+    <script src="charting2.js"></script>
+    
 
     
 </body>

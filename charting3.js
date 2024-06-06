@@ -14,6 +14,14 @@ fetch('mtx3.json')
     // Sort data by COUNT
     data.sort((a, b) => new Date(a.Count) - new Date(b.Count));
 
+    // Calculate the total Count
+    const total = data.reduce((sum, entry) => sum + parseFloat(entry.Count), 0);
+
+    // Calculate percentages
+    data.forEach(entry => {
+      entry.Percentage = (parseFloat(entry.Count) / total * 100).toFixed(2);
+    });
+
     createChart3(data);
   })
   .catch(function(error) {
@@ -22,21 +30,10 @@ fetch('mtx3.json')
 
 function createChart3(data) {
   const labels = data.map(entry => entry.BOROUGH);
-  const counts = data.map(entry => parseFloat(entry.Count));
+  const percentages = data.map(entry => entry.Percentage);
 
-  // Calculate total count
-  const total = counts.reduce((sum, value) => sum + value, 0);
-
-  // Define specific colors for each segment
-  const colors = [
-    'rgba(255, 99, 132, 0.6)',    // Red
-    'rgba(54, 162, 235, 0.6)',    // Blue
-    'rgba(255, 206, 86, 0.6)',    // Yellow
-    'rgba(75, 192, 192, 0.6)',    // Green
-    'rgba(153, 102, 255, 0.6)',   // Purple
-    'rgba(255, 159, 64, 0.6)'     // Orange
-    // Add more colors as needed
-  ];
+  // Generate random colors for each bar
+  const colors = generateRandomColors(labels.length);
 
   new Chart(ctx3, {
     type: 'doughnut',
@@ -44,8 +41,8 @@ function createChart3(data) {
       labels: labels,
       datasets: [{
         label: 'Percentage of property sales',
-        data: counts,
-        backgroundColor: colors.slice(0, counts.length), // Use predefined colors
+        data: percentages,
+        backgroundColor: colors, // Gunakan warna acak
         borderColor: '#0077B6',
         borderWidth: 2.5,
         fill: false
@@ -63,9 +60,8 @@ function createChart3(data) {
               if (label) {
                 label += ': ';
               }
-              const value = context.raw || 0;
-              const percentage = ((value / total) * 100).toFixed(2);
-              label += percentage + '%';
+              const value = context.formattedValue || 0;
+              label += value + '%';
               return label;
             }
           }
@@ -73,4 +69,14 @@ function createChart3(data) {
       }
     }
   });
+}
+
+// Function to generate random colors
+function generateRandomColors(numColors) {
+  const colors = [];
+  for (let i = 0; i < numColors; i++) {
+    const color = `rgba(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, 0.6)`;
+    colors.push(color);
+  }
+  return colors;
 }

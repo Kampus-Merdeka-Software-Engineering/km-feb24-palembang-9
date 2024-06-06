@@ -144,10 +144,10 @@ body {
     box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.7); 
     width: 90%;
     max-width: 1200px;
-    margin: 20px auto; 
+    margin: 35px auto; 
 }
 
-.metrics3{
+.metrics3 {
     background-color: #ffffff;
     padding: 36px;
     border: 1px solid #ddd;
@@ -155,7 +155,7 @@ body {
     box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.7); 
     width: 90%;
     max-width: 1200px;
-    margin: 20px auto; 
+    margin: 35px auto; 
 }
 
 .metrics-content {
@@ -193,6 +193,30 @@ body {
     padding: 20px 30px; 
 }
 
+.metrics5 h3 {
+    font-size: 35px;
+    margin-top: 1px;
+    font-weight: 800;
+    margin-bottom: 1px;
+    padding: 20px 30px; 
+}
+
+.metrics7 h3 {
+    font-size: 35px;
+    margin-top: 1px;
+    font-weight: 800;
+    margin-bottom: 1px;
+    padding: 20px 30px; 
+}
+
+.metrics9 h3 {
+    font-size: 35px;
+    margin-top: 1px;
+    font-weight: 800;
+    margin-bottom: 1px;
+    padding: 20px 30px; 
+}
+
 .chart1 {
     width: 57%; 
     max-width: 100%; 
@@ -205,6 +229,21 @@ body {
 }
 
 .chart3 {
+    width: 57%; 
+    max-width: 100%; 
+}
+
+.chart5 {
+    width: 57%; 
+    max-width: 100%; 
+}
+
+.chart7 {
+    width: 57%; 
+    max-width: 100%; 
+}
+
+.chart9 {
     width: 57%; 
     max-width: 100%; 
 }
@@ -230,6 +269,36 @@ body {
 }
 
 .metrics3 p {
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.5;
+    padding: 0px 30px; 
+}
+
+.metrics5 p {
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.5;
+    padding: 0px 30px; 
+}
+
+.metrics7 p {
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.5;
+    padding: 0px 30px; 
+}
+
+.metrics9 p {
     text-align: justify;
     font-family: "Poppins", sans-serif;
     font-size: 17px;

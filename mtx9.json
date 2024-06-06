@@ -1,0 +1,712 @@
+[{
+  "neighborhood": "AIRPORT LA GUARDIA",
+  "rata_rata_harga_per_kaki_persegi": "697.38788137125744"
+}, {
+  "neighborhood": "ANNADALE",
+  "rata_rata_harga_per_kaki_persegi": "435.68017950767421"
+}, {
+  "neighborhood": "ARDEN HEIGHTS",
+  "rata_rata_harga_per_kaki_persegi": "396.82154841768624"
+}, {
+  "neighborhood": "ARROCHAR",
+  "rata_rata_harga_per_kaki_persegi": "436.84018729513343"
+}, {
+  "neighborhood": "ARROCHAR-SHORE ACRES",
+  "rata_rata_harga_per_kaki_persegi": "430.98932934529785"
+}, {
+  "neighborhood": "ARVERNE",
+  "rata_rata_harga_per_kaki_persegi": "330.01382418840819"
+}, {
+  "neighborhood": "ASTORIA",
+  "rata_rata_harga_per_kaki_persegi": "2310.5875235960038"
+}, {
+  "neighborhood": "BATH BEACH",
+  "rata_rata_harga_per_kaki_persegi": "557.6006222898053"
+}, {
+  "neighborhood": "BATHGATE",
+  "rata_rata_harga_per_kaki_persegi": "296.636190899607"
+}, {
+  "neighborhood": "BAY RIDGE",
+  "rata_rata_harga_per_kaki_persegi": "1362.9954244035532"
+}, {
+  "neighborhood": "BAYCHESTER",
+  "rata_rata_harga_per_kaki_persegi": "341.44625030454671"
+}, {
+  "neighborhood": "BAYSIDE",
+  "rata_rata_harga_per_kaki_persegi": "929.36926509166949"
+}, {
+  "neighborhood": "BEDFORD PARK/NORWOOD",
+  "rata_rata_harga_per_kaki_persegi": "278.82568545555841"
+}, {
+  "neighborhood": "BEDFORD STUYVESANT",
+  "rata_rata_harga_per_kaki_persegi": "1101.4504636409113"
+}, {
+  "neighborhood": "BEECHHURST",
+  "rata_rata_harga_per_kaki_persegi": "1099.1227143756369"
+}, {
+  "neighborhood": "BELLE HARBOR",
+  "rata_rata_harga_per_kaki_persegi": "1927.9026272900398"
+}, {
+  "neighborhood": "BELLEROSE",
+  "rata_rata_harga_per_kaki_persegi": "521.74229925285749"
+}, {
+  "neighborhood": "BELMONT",
+  "rata_rata_harga_per_kaki_persegi": "837.46285309438372"
+}, {
+  "neighborhood": "BENSONHURST",
+  "rata_rata_harga_per_kaki_persegi": "837.07062842377752"
+}, {
+  "neighborhood": "BERGEN BEACH",
+  "rata_rata_harga_per_kaki_persegi": "308.5616783581516"
+}, {
+  "neighborhood": "BOERUM HILL",
+  "rata_rata_harga_per_kaki_persegi": "113.51725196947966"
+}, {
+  "neighborhood": "BOROUGH PARK",
+  "rata_rata_harga_per_kaki_persegi": "815.806644439825"
+}, {
+  "neighborhood": "BRIARWOOD",
+  "rata_rata_harga_per_kaki_persegi": "590.18307989095456"
+}, {
+  "neighborhood": "BRIGHTON BEACH",
+  "rata_rata_harga_per_kaki_persegi": "447.50072983972791"
+}, {
+  "neighborhood": "BROAD CHANNEL",
+  "rata_rata_harga_per_kaki_persegi": "512.869384645203"
+}, {
+  "neighborhood": "BRONX PARK",
+  "rata_rata_harga_per_kaki_persegi": "168.93018822968787"
+}, {
+  "neighborhood": "BRONXDALE",
+  "rata_rata_harga_per_kaki_persegi": "341.67538899553028"
+}, {
+  "neighborhood": "BROOKLYN HEIGHTS",
+  "rata_rata_harga_per_kaki_persegi": "157.63521974551176"
+}, {
+  "neighborhood": "BROWNSVILLE",
+  "rata_rata_harga_per_kaki_persegi": "272.70028889184664"
+}, {
+  "neighborhood": "BULLS HEAD",
+  "rata_rata_harga_per_kaki_persegi": "410.97850437249809"
+}, {
+  "neighborhood": "BUSH TERMINAL",
+  "rata_rata_harga_per_kaki_persegi": "332.51313610600994"
+}, {
+  "neighborhood": "BUSHWICK",
+  "rata_rata_harga_per_kaki_persegi": "483.11363150734076"
+}, {
+  "neighborhood": "CAMBRIA HEIGHTS",
+  "rata_rata_harga_per_kaki_persegi": "466.53516822432516"
+}, {
+  "neighborhood": "CANARSIE",
+  "rata_rata_harga_per_kaki_persegi": "299.70130197573985"
+}, {
+  "neighborhood": "CARROLL GARDENS",
+  "rata_rata_harga_per_kaki_persegi": "330.85563522892591"
+}, {
+  "neighborhood": "CASTLE HILL/UNIONPORT",
+  "rata_rata_harga_per_kaki_persegi": "303.29628578682633"
+}, {
+  "neighborhood": "CASTLETON CORNERS",
+  "rata_rata_harga_per_kaki_persegi": "503.38644660378264"
+}, {
+  "neighborhood": "CHELSEA",
+  "rata_rata_harga_per_kaki_persegi": "231.2262556296804"
+}, {
+  "neighborhood": "CHINATOWN",
+  "rata_rata_harga_per_kaki_persegi": "40.671072699542449"
+}, {
+  "neighborhood": "CITY ISLAND",
+  "rata_rata_harga_per_kaki_persegi": "543.51780490556666"
+}, {
+  "neighborhood": "CITY ISLAND-PELHAM STRIP",
+  "rata_rata_harga_per_kaki_persegi": "625.68309859154931"
+}, {
+  "neighborhood": "CLINTON",
+  "rata_rata_harga_per_kaki_persegi": "59.906992193987705"
+}, {
+  "neighborhood": "CLINTON HILL",
+  "rata_rata_harga_per_kaki_persegi": "1573.8620832417914"
+}, {
+  "neighborhood": "CLOVE LAKES",
+  "rata_rata_harga_per_kaki_persegi": "510.31109288934573"
+}, {
+  "neighborhood": "CO-OP CITY",
+  "rata_rata_harga_per_kaki_persegi": "223.85692239858912"
+}, {
+  "neighborhood": "COBBLE HILL",
+  "rata_rata_harga_per_kaki_persegi": "88.846388063881676"
+}, {
+  "neighborhood": "COBBLE HILL-WEST",
+  "rata_rata_harga_per_kaki_persegi": "405.91325281384945"
+}, {
+  "neighborhood": "COLLEGE POINT",
+  "rata_rata_harga_per_kaki_persegi": "645.54027667120147"
+}, {
+  "neighborhood": "CONCORD",
+  "rata_rata_harga_per_kaki_persegi": "462.656425257133"
+}, {
+  "neighborhood": "CONCORD-FOX HILLS",
+  "rata_rata_harga_per_kaki_persegi": "530.00382644744479"
+}, {
+  "neighborhood": "CONEY ISLAND",
+  "rata_rata_harga_per_kaki_persegi": "520.31750074459273"
+}, {
+  "neighborhood": "CORONA",
+  "rata_rata_harga_per_kaki_persegi": "861.76989773130015"
+}, {
+  "neighborhood": "COUNTRY CLUB",
+  "rata_rata_harga_per_kaki_persegi": "406.319359879831"
+}, {
+  "neighborhood": "CROTONA PARK",
+  "rata_rata_harga_per_kaki_persegi": "432.65453225681574"
+}, {
+  "neighborhood": "CROWN HEIGHTS",
+  "rata_rata_harga_per_kaki_persegi": "793.71857551270546"
+}, {
+  "neighborhood": "CYPRESS HILLS",
+  "rata_rata_harga_per_kaki_persegi": "334.38788261570284"
+}, {
+  "neighborhood": "DONGAN HILLS",
+  "rata_rata_harga_per_kaki_persegi": "522.08804155363089"
+}, {
+  "neighborhood": "DONGAN HILLS-COLONY",
+  "rata_rata_harga_per_kaki_persegi": "690.997599954633"
+}, {
+  "neighborhood": "DONGAN HILLS-OLD TOWN",
+  "rata_rata_harga_per_kaki_persegi": "451.40987438730986"
+}, {
+  "neighborhood": "DOUGLASTON",
+  "rata_rata_harga_per_kaki_persegi": "1122.1980784454747"
+}, {
+  "neighborhood": "DOWNTOWN-FULTON FERRY",
+  "rata_rata_harga_per_kaki_persegi": "159.40448592311881"
+}, {
+  "neighborhood": "DOWNTOWN-FULTON MALL",
+  "rata_rata_harga_per_kaki_persegi": "103.13027262561855"
+}, {
+  "neighborhood": "DOWNTOWN-METROTECH",
+  "rata_rata_harga_per_kaki_persegi": "2.1405418486652588"
+}, {
+  "neighborhood": "DYKER HEIGHTS",
+  "rata_rata_harga_per_kaki_persegi": "726.15737846471927"
+}, {
+  "neighborhood": "EAST ELMHURST",
+  "rata_rata_harga_per_kaki_persegi": "591.09077077339816"
+}, {
+  "neighborhood": "EAST NEW YORK",
+  "rata_rata_harga_per_kaki_persegi": "312.18175987708418"
+}, {
+  "neighborhood": "EAST TREMONT",
+  "rata_rata_harga_per_kaki_persegi": "383.46210658951924"
+}, {
+  "neighborhood": "EAST VILLAGE",
+  "rata_rata_harga_per_kaki_persegi": "39.635354736424894"
+}, {
+  "neighborhood": "ELMHURST",
+  "rata_rata_harga_per_kaki_persegi": "1154.7452152228543"
+}, {
+  "neighborhood": "ELTINGVILLE",
+  "rata_rata_harga_per_kaki_persegi": "462.09989276633286"
+}, {
+  "neighborhood": "EMERSON HILL",
+  "rata_rata_harga_per_kaki_persegi": "735.77623010736511"
+}, {
+  "neighborhood": "FAR ROCKAWAY",
+  "rata_rata_harga_per_kaki_persegi": "365.90064703206053"
+}, {
+  "neighborhood": "FASHION",
+  "rata_rata_harga_per_kaki_persegi": "24.557961765172852"
+}, {
+  "neighborhood": "FIELDSTON",
+  "rata_rata_harga_per_kaki_persegi": "1266.898219962284"
+}, {
+  "neighborhood": "FLATBUSH-CENTRAL",
+  "rata_rata_harga_per_kaki_persegi": "591.7422871374215"
+}, {
+  "neighborhood": "FLATBUSH-EAST",
+  "rata_rata_harga_per_kaki_persegi": "360.66277219367845"
+}, {
+  "neighborhood": "FLATBUSH-LEFFERTS GARDEN",
+  "rata_rata_harga_per_kaki_persegi": "1871.1761707475725"
+}, {
+  "neighborhood": "FLATBUSH-NORTH",
+  "rata_rata_harga_per_kaki_persegi": "312.79938122612572"
+}, {
+  "neighborhood": "FLATIRON",
+  "rata_rata_harga_per_kaki_persegi": "18.554708960738783"
+}, {
+  "neighborhood": "FLATLANDS",
+  "rata_rata_harga_per_kaki_persegi": "338.99091908056931"
+}, {
+  "neighborhood": "FLORAL PARK",
+  "rata_rata_harga_per_kaki_persegi": "598.18543906217189"
+}, {
+  "neighborhood": "FLUSHING-NORTH",
+  "rata_rata_harga_per_kaki_persegi": "1147.4235256935083"
+}, {
+  "neighborhood": "FLUSHING-SOUTH",
+  "rata_rata_harga_per_kaki_persegi": "723.90758072886422"
+}, {
+  "neighborhood": "FORDHAM",
+  "rata_rata_harga_per_kaki_persegi": "316.75172253662976"
+}, {
+  "neighborhood": "FOREST HILLS",
+  "rata_rata_harga_per_kaki_persegi": "2251.3866088049826"
+}, {
+  "neighborhood": "FORT GREENE",
+  "rata_rata_harga_per_kaki_persegi": "204.5768407334993"
+}, {
+  "neighborhood": "FRESH KILLS",
+  "rata_rata_harga_per_kaki_persegi": "341.86437327006723"
+}, {
+  "neighborhood": "FRESH MEADOWS",
+  "rata_rata_harga_per_kaki_persegi": "809.36147258248343"
+}, {
+  "neighborhood": "GERRITSEN BEACH",
+  "rata_rata_harga_per_kaki_persegi": "493.56142097426653"
+}, {
+  "neighborhood": "GLEN OAKS",
+  "rata_rata_harga_per_kaki_persegi": "659.8427832507399"
+}, {
+  "neighborhood": "GLENDALE",
+  "rata_rata_harga_per_kaki_persegi": "576.83928390697611"
+}, {
+  "neighborhood": "GOWANUS",
+  "rata_rata_harga_per_kaki_persegi": "982.420691684601"
+}, {
+  "neighborhood": "GRAMERCY",
+  "rata_rata_harga_per_kaki_persegi": "45.519858695502421"
+}, {
+  "neighborhood": "GRANT CITY",
+  "rata_rata_harga_per_kaki_persegi": "539.69431556161248"
+}, {
+  "neighborhood": "GRASMERE",
+  "rata_rata_harga_per_kaki_persegi": "548.02849160523272"
+}, {
+  "neighborhood": "GRAVESEND",
+  "rata_rata_harga_per_kaki_persegi": "582.522705461553"
+}, {
+  "neighborhood": "GREAT KILLS",
+  "rata_rata_harga_per_kaki_persegi": "467.5806065963186"
+}, {
+  "neighborhood": "GREAT KILLS-BAY TERRACE",
+  "rata_rata_harga_per_kaki_persegi": "420.6007511489031"
+}, {
+  "neighborhood": "GREENPOINT",
+  "rata_rata_harga_per_kaki_persegi": "2040.5653005920144"
+}, {
+  "neighborhood": "GREENWICH VILLAGE-CENTRAL",
+  "rata_rata_harga_per_kaki_persegi": "36.212203512583741"
+}, {
+  "neighborhood": "GREENWICH VILLAGE-WEST",
+  "rata_rata_harga_per_kaki_persegi": "1533.4981960782948"
+}, {
+  "neighborhood": "GRYMES HILL",
+  "rata_rata_harga_per_kaki_persegi": "479.12148613342117"
+}, {
+  "neighborhood": "HAMMELS",
+  "rata_rata_harga_per_kaki_persegi": "382.08406700153517"
+}, {
+  "neighborhood": "HARLEM-CENTRAL",
+  "rata_rata_harga_per_kaki_persegi": "8072.5563340251192"
+}, {
+  "neighborhood": "HARLEM-EAST",
+  "rata_rata_harga_per_kaki_persegi": "21969.903330370536"
+}, {
+  "neighborhood": "HARLEM-UPPER",
+  "rata_rata_harga_per_kaki_persegi": "1154.7174836742352"
+}, {
+  "neighborhood": "HARLEM-WEST",
+  "rata_rata_harga_per_kaki_persegi": "2212.563823129819"
+}, {
+  "neighborhood": "HIGHBRIDGE/MORRIS HEIGHTS",
+  "rata_rata_harga_per_kaki_persegi": "307.652910989149"
+}, {
+  "neighborhood": "HILLCREST",
+  "rata_rata_harga_per_kaki_persegi": "589.34238450039084"
+}, {
+  "neighborhood": "HOLLIS",
+  "rata_rata_harga_per_kaki_persegi": "409.86595457216345"
+}, {
+  "neighborhood": "HOLLIS HILLS",
+  "rata_rata_harga_per_kaki_persegi": "800.53396319248316"
+}, {
+  "neighborhood": "HOLLISWOOD",
+  "rata_rata_harga_per_kaki_persegi": "634.39071444431727"
+}, {
+  "neighborhood": "HOWARD BEACH",
+  "rata_rata_harga_per_kaki_persegi": "453.69138676416884"
+}, {
+  "neighborhood": "HUGUENOT",
+  "rata_rata_harga_per_kaki_persegi": "454.16836194448632"
+}, {
+  "neighborhood": "HUNTS POINT",
+  "rata_rata_harga_per_kaki_persegi": "884.2676896908265"
+}, {
+  "neighborhood": "INWOOD",
+  "rata_rata_harga_per_kaki_persegi": "455.77042804910826"
+}, {
+  "neighborhood": "JACKSON HEIGHTS",
+  "rata_rata_harga_per_kaki_persegi": "621.73396897855389"
+}, {
+  "neighborhood": "JAMAICA",
+  "rata_rata_harga_per_kaki_persegi": "445.39617930073257"
+}, {
+  "neighborhood": "JAMAICA BAY",
+  "rata_rata_harga_per_kaki_persegi": "409.6239986853339"
+}, {
+  "neighborhood": "JAMAICA ESTATES",
+  "rata_rata_harga_per_kaki_persegi": "1250.1195392435995"
+}, {
+  "neighborhood": "JAMAICA HILLS",
+  "rata_rata_harga_per_kaki_persegi": "500.58648713934008"
+}, {
+  "neighborhood": "KENSINGTON",
+  "rata_rata_harga_per_kaki_persegi": "962.41502025720831"
+}, {
+  "neighborhood": "KEW GARDENS",
+  "rata_rata_harga_per_kaki_persegi": "903.59205740828111"
+}, {
+  "neighborhood": "KINGSBRIDGE HTS/UNIV HTS",
+  "rata_rata_harga_per_kaki_persegi": "238.23565619035014"
+}, {
+  "neighborhood": "KINGSBRIDGE/JEROME PARK",
+  "rata_rata_harga_per_kaki_persegi": "353.92178464449421"
+}, {
+  "neighborhood": "LAURELTON",
+  "rata_rata_harga_per_kaki_persegi": "434.77136806497271"
+}, {
+  "neighborhood": "LITTLE NECK",
+  "rata_rata_harga_per_kaki_persegi": "1229.584775103943"
+}, {
+  "neighborhood": "LIVINGSTON",
+  "rata_rata_harga_per_kaki_persegi": "399.71496423615508"
+}, {
+  "neighborhood": "LONG ISLAND CITY",
+  "rata_rata_harga_per_kaki_persegi": "1246.3523765611394"
+}, {
+  "neighborhood": "MADISON",
+  "rata_rata_harga_per_kaki_persegi": "508.30256629892818"
+}, {
+  "neighborhood": "MANHATTAN BEACH",
+  "rata_rata_harga_per_kaki_persegi": "2014.954516210204"
+}, {
+  "neighborhood": "MANHATTAN VALLEY",
+  "rata_rata_harga_per_kaki_persegi": "34.187621991797293"
+}, {
+  "neighborhood": "MANOR HEIGHTS",
+  "rata_rata_harga_per_kaki_persegi": "501.26377692792266"
+}, {
+  "neighborhood": "MARINE PARK",
+  "rata_rata_harga_per_kaki_persegi": "454.9935968098323"
+}, {
+  "neighborhood": "MARINERS HARBOR",
+  "rata_rata_harga_per_kaki_persegi": "413.24141568117119"
+}, {
+  "neighborhood": "MASPETH",
+  "rata_rata_harga_per_kaki_persegi": "645.01151648839061"
+}, {
+  "neighborhood": "MELROSE/CONCOURSE",
+  "rata_rata_harga_per_kaki_persegi": "246.77064385338466"
+}, {
+  "neighborhood": "MIDDLE VILLAGE",
+  "rata_rata_harga_per_kaki_persegi": "658.78157872243037"
+}, {
+  "neighborhood": "MIDLAND BEACH",
+  "rata_rata_harga_per_kaki_persegi": "504.89098416971547"
+}, {
+  "neighborhood": "MIDTOWN EAST",
+  "rata_rata_harga_per_kaki_persegi": "741.8603240461"
+}, {
+  "neighborhood": "MIDTOWN WEST",
+  "rata_rata_harga_per_kaki_persegi": "7.5719364930483106"
+}, {
+  "neighborhood": "MIDWOOD",
+  "rata_rata_harga_per_kaki_persegi": "858.38567118180151"
+}, {
+  "neighborhood": "MILL BASIN",
+  "rata_rata_harga_per_kaki_persegi": "912.51959933839851"
+}, {
+  "neighborhood": "MORRIS PARK/VAN NEST",
+  "rata_rata_harga_per_kaki_persegi": "348.63762449070987"
+}, {
+  "neighborhood": "MORRISANIA/LONGWOOD",
+  "rata_rata_harga_per_kaki_persegi": "280.67534720257089"
+}, {
+  "neighborhood": "MOTT HAVEN/PORT MORRIS",
+  "rata_rata_harga_per_kaki_persegi": "384.85551795236074"
+}, {
+  "neighborhood": "MOUNT HOPE/MOUNT EDEN",
+  "rata_rata_harga_per_kaki_persegi": "267.03819091385662"
+}, {
+  "neighborhood": "MURRAY HILL",
+  "rata_rata_harga_per_kaki_persegi": "8.5835740367322462"
+}, {
+  "neighborhood": "NAVY YARD",
+  "rata_rata_harga_per_kaki_persegi": "408.38995581591831"
+}, {
+  "neighborhood": "NEPONSIT",
+  "rata_rata_harga_per_kaki_persegi": "723.06631957273066"
+}, {
+  "neighborhood": "NEW BRIGHTON",
+  "rata_rata_harga_per_kaki_persegi": "342.48535983991871"
+}, {
+  "neighborhood": "NEW DORP",
+  "rata_rata_harga_per_kaki_persegi": "512.99324438456028"
+}, {
+  "neighborhood": "NEW DORP-BEACH",
+  "rata_rata_harga_per_kaki_persegi": "541.61745408621346"
+}, {
+  "neighborhood": "NEW DORP-HEIGHTS",
+  "rata_rata_harga_per_kaki_persegi": "493.53733168044556"
+}, {
+  "neighborhood": "NEW SPRINGVILLE",
+  "rata_rata_harga_per_kaki_persegi": "378.21896395509305"
+}, {
+  "neighborhood": "OAKLAND GARDENS",
+  "rata_rata_harga_per_kaki_persegi": "939.10004534119946"
+}, {
+  "neighborhood": "OAKWOOD",
+  "rata_rata_harga_per_kaki_persegi": "598.71594186513278"
+}, {
+  "neighborhood": "OAKWOOD-BEACH",
+  "rata_rata_harga_per_kaki_persegi": "480.41275901091075"
+}, {
+  "neighborhood": "OCEAN HILL",
+  "rata_rata_harga_per_kaki_persegi": "506.86155113362042"
+}, {
+  "neighborhood": "OCEAN PARKWAY-NORTH",
+  "rata_rata_harga_per_kaki_persegi": "830.092704482125"
+}, {
+  "neighborhood": "OCEAN PARKWAY-SOUTH",
+  "rata_rata_harga_per_kaki_persegi": "588.12534337035208"
+}, {
+  "neighborhood": "OLD MILL BASIN",
+  "rata_rata_harga_per_kaki_persegi": "405.58587288101097"
+}, {
+  "neighborhood": "OZONE PARK",
+  "rata_rata_harga_per_kaki_persegi": "441.63506090024771"
+}, {
+  "neighborhood": "PARK SLOPE",
+  "rata_rata_harga_per_kaki_persegi": "194.51199642082483"
+}, {
+  "neighborhood": "PARK SLOPE SOUTH",
+  "rata_rata_harga_per_kaki_persegi": "1330.67010468213"
+}, {
+  "neighborhood": "PARKCHESTER",
+  "rata_rata_harga_per_kaki_persegi": "344.09294706830087"
+}, {
+  "neighborhood": "PELHAM BAY",
+  "rata_rata_harga_per_kaki_persegi": "93.023255813953483"
+}, {
+  "neighborhood": "PELHAM GARDENS",
+  "rata_rata_harga_per_kaki_persegi": "387.9721888696796"
+}, {
+  "neighborhood": "PELHAM PARKWAY NORTH",
+  "rata_rata_harga_per_kaki_persegi": "346.3916104061019"
+}, {
+  "neighborhood": "PELHAM PARKWAY SOUTH",
+  "rata_rata_harga_per_kaki_persegi": "260.881268083016"
+}, {
+  "neighborhood": "PLEASANT PLAINS",
+  "rata_rata_harga_per_kaki_persegi": "515.1974021912921"
+}, {
+  "neighborhood": "PORT IVORY",
+  "rata_rata_harga_per_kaki_persegi": "442.56628453130651"
+}, {
+  "neighborhood": "PORT RICHMOND",
+  "rata_rata_harga_per_kaki_persegi": "358.15450560240822"
+}, {
+  "neighborhood": "PRINCES BAY",
+  "rata_rata_harga_per_kaki_persegi": "455.6532331664971"
+}, {
+  "neighborhood": "PROSPECT HEIGHTS",
+  "rata_rata_harga_per_kaki_persegi": "895.88413572437355"
+}, {
+  "neighborhood": "QUEENS VILLAGE",
+  "rata_rata_harga_per_kaki_persegi": "451.459456548671"
+}, {
+  "neighborhood": "RED HOOK",
+  "rata_rata_harga_per_kaki_persegi": "1257.0867517442921"
+}, {
+  "neighborhood": "REGO PARK",
+  "rata_rata_harga_per_kaki_persegi": "815.28002664862629"
+}, {
+  "neighborhood": "RICHMOND HILL",
+  "rata_rata_harga_per_kaki_persegi": "439.25305049976583"
+}, {
+  "neighborhood": "RICHMONDTOWN",
+  "rata_rata_harga_per_kaki_persegi": "651.48975892388978"
+}, {
+  "neighborhood": "RICHMONDTOWN-LIGHTHS HILL",
+  "rata_rata_harga_per_kaki_persegi": "577.54562729704958"
+}, {
+  "neighborhood": "RIDGEWOOD",
+  "rata_rata_harga_per_kaki_persegi": "900.02416483839409"
+}, {
+  "neighborhood": "RIVERDALE",
+  "rata_rata_harga_per_kaki_persegi": "664.14199520741158"
+}, {
+  "neighborhood": "ROCKAWAY PARK",
+  "rata_rata_harga_per_kaki_persegi": "355.4081463437974"
+}, {
+  "neighborhood": "ROSEBANK",
+  "rata_rata_harga_per_kaki_persegi": "454.40735464401968"
+}, {
+  "neighborhood": "ROSEDALE",
+  "rata_rata_harga_per_kaki_persegi": "432.55532997543577"
+}, {
+  "neighborhood": "ROSSVILLE",
+  "rata_rata_harga_per_kaki_persegi": "408.57368229764211"
+}, {
+  "neighborhood": "ROSSVILLE-CHARLESTON",
+  "rata_rata_harga_per_kaki_persegi": "381.94953029673957"
+}, {
+  "neighborhood": "ROSSVILLE-PORT MOBIL",
+  "rata_rata_harga_per_kaki_persegi": "739.93019759450181"
+}, {
+  "neighborhood": "ROSSVILLE-RICHMOND VALLEY",
+  "rata_rata_harga_per_kaki_persegi": "359.07180011938988"
+}, {
+  "neighborhood": "SCHUYLERVILLE/PELHAM BAY",
+  "rata_rata_harga_per_kaki_persegi": "253.00723230416062"
+}, {
+  "neighborhood": "SEAGATE",
+  "rata_rata_harga_per_kaki_persegi": "321.78647502916505"
+}, {
+  "neighborhood": "SHEEPSHEAD BAY",
+  "rata_rata_harga_per_kaki_persegi": "476.92678143163334"
+}, {
+  "neighborhood": "SILVER LAKE",
+  "rata_rata_harga_per_kaki_persegi": "450.63765031835021"
+}, {
+  "neighborhood": "SO. JAMAICA-BAISLEY PARK",
+  "rata_rata_harga_per_kaki_persegi": "460.57821663289155"
+}, {
+  "neighborhood": "SOHO",
+  "rata_rata_harga_per_kaki_persegi": "0.44055871656434692"
+}, {
+  "neighborhood": "SOUNDVIEW",
+  "rata_rata_harga_per_kaki_persegi": "225.39672998635027"
+}, {
+  "neighborhood": "SOUTH BEACH",
+  "rata_rata_harga_per_kaki_persegi": "499.13335013876997"
+}, {
+  "neighborhood": "SOUTH JAMAICA",
+  "rata_rata_harga_per_kaki_persegi": "426.03087403332773"
+}, {
+  "neighborhood": "SOUTH OZONE PARK",
+  "rata_rata_harga_per_kaki_persegi": "485.84277081220904"
+}, {
+  "neighborhood": "SPRING CREEK",
+  "rata_rata_harga_per_kaki_persegi": "349.7988605272817"
+}, {
+  "neighborhood": "SPRINGFIELD GARDENS",
+  "rata_rata_harga_per_kaki_persegi": "447.74028875582758"
+}, {
+  "neighborhood": "ST. ALBANS",
+  "rata_rata_harga_per_kaki_persegi": "407.7363063285955"
+}, {
+  "neighborhood": "STAPLETON",
+  "rata_rata_harga_per_kaki_persegi": "386.39184088642833"
+}, {
+  "neighborhood": "STAPLETON-CLIFTON",
+  "rata_rata_harga_per_kaki_persegi": "337.71546215678984"
+}, {
+  "neighborhood": "SUNNYSIDE",
+  "rata_rata_harga_per_kaki_persegi": "968.49274937928317"
+}, {
+  "neighborhood": "SUNSET PARK",
+  "rata_rata_harga_per_kaki_persegi": "723.71911841114911"
+}, {
+  "neighborhood": "THROGS NECK",
+  "rata_rata_harga_per_kaki_persegi": "338.95540480845324"
+}, {
+  "neighborhood": "TODT HILL",
+  "rata_rata_harga_per_kaki_persegi": "3214.7157049697862"
+}, {
+  "neighborhood": "TOMPKINSVILLE",
+  "rata_rata_harga_per_kaki_persegi": "449.00874699761368"
+}, {
+  "neighborhood": "TOTTENVILLE",
+  "rata_rata_harga_per_kaki_persegi": "439.78924867741307"
+}, {
+  "neighborhood": "TRAVIS",
+  "rata_rata_harga_per_kaki_persegi": "429.65623732637044"
+}, {
+  "neighborhood": "UPPER EAST SIDE (59-79)",
+  "rata_rata_harga_per_kaki_persegi": "34.106529218265436"
+}, {
+  "neighborhood": "UPPER EAST SIDE (79-96)",
+  "rata_rata_harga_per_kaki_persegi": "177717.32763157302"
+}, {
+  "neighborhood": "UPPER EAST SIDE (96-110)",
+  "rata_rata_harga_per_kaki_persegi": "1685.4963218390806"
+}, {
+  "neighborhood": "UPPER WEST SIDE (59-79)",
+  "rata_rata_harga_per_kaki_persegi": "62.277955457323465"
+}, {
+  "neighborhood": "UPPER WEST SIDE (79-96)",
+  "rata_rata_harga_per_kaki_persegi": "27.620840245519307"
+}, {
+  "neighborhood": "UPPER WEST SIDE (96-116)",
+  "rata_rata_harga_per_kaki_persegi": "13.068478829064297"
+}, {
+  "neighborhood": "WAKEFIELD",
+  "rata_rata_harga_per_kaki_persegi": "314.82771221160959"
+}, {
+  "neighborhood": "WASHINGTON HEIGHTS LOWER",
+  "rata_rata_harga_per_kaki_persegi": "1387.2261372148976"
+}, {
+  "neighborhood": "WASHINGTON HEIGHTS UPPER",
+  "rata_rata_harga_per_kaki_persegi": "760.44473339579474"
+}, {
+  "neighborhood": "WEST NEW BRIGHTON",
+  "rata_rata_harga_per_kaki_persegi": "370.76236274488809"
+}, {
+  "neighborhood": "WESTCHESTER",
+  "rata_rata_harga_per_kaki_persegi": "227.93654480125008"
+}, {
+  "neighborhood": "WESTERLEIGH",
+  "rata_rata_harga_per_kaki_persegi": "482.09214372909429"
+}, {
+  "neighborhood": "WHITESTONE",
+  "rata_rata_harga_per_kaki_persegi": "985.16120840962935"
+}, {
+  "neighborhood": "WILLIAMSBRIDGE",
+  "rata_rata_harga_per_kaki_persegi": "268.12162809859507"
+}, {
+  "neighborhood": "WILLIAMSBURG-CENTRAL",
+  "rata_rata_harga_per_kaki_persegi": "1098.2373769266585"
+}, {
+  "neighborhood": "WILLIAMSBURG-EAST",
+  "rata_rata_harga_per_kaki_persegi": "1028.924189957112"
+}, {
+  "neighborhood": "WILLIAMSBURG-NORTH",
+  "rata_rata_harga_per_kaki_persegi": "269.521197114233"
+}, {
+  "neighborhood": "WILLIAMSBURG-SOUTH",
+  "rata_rata_harga_per_kaki_persegi": "255.75899337955374"
+}, {
+  "neighborhood": "WILLOWBROOK",
+  "rata_rata_harga_per_kaki_persegi": "474.189522360565"
+}, {
+  "neighborhood": "WINDSOR TERRACE",
+  "rata_rata_harga_per_kaki_persegi": "4668.5860433409016"
+}, {
+  "neighborhood": "WOODHAVEN",
+  "rata_rata_harga_per_kaki_persegi": "434.62273332582561"
+}, {
+  "neighborhood": "WOODLAWN",
+  "rata_rata_harga_per_kaki_persegi": "276.174126957288"
+}, {
+  "neighborhood": "WOODROW",
+  "rata_rata_harga_per_kaki_persegi": "397.49555021339637"
+}, {
+  "neighborhood": "WOODSIDE",
+  "rata_rata_harga_per_kaki_persegi": "780.29531038318225"
+}, {
+  "neighborhood": "WYCKOFF HEIGHTS",
+  "rata_rata_harga_per_kaki_persegi": "574.722738212096"
+}]
