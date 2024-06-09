@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
@@ -35,17 +36,38 @@
                 </li>
             </ul>
         </aside>
+
         <main class="main-containerx">
             <div class="main-tittle">
-                <p class="font-weight-bold ">DASHBOARD</p>
+                <p class="font-weight-bold">DASHBOARD</p>
             </div>
-            <main class="main-container">
+      
+
+            <main class="main-containerx">
+                <div class="kpi-container">
+                    <div class="kpi">
+                        <p class="text-primary">TOTAL SALE PRICE </p>
+                        <p id="totalSalePriceKPI" class="kpi-value">Loading...</p>
+                    </div>
+                    <div class="kpi">
+                        <p class="text-primary">COMMERCIAL UNITS</p>
+                        <p id="commercialUnitsKPI" class="kpi-value">Loading...</p>
+                    </div>
+                    <div class="kpi">
+                        <p class="text-primary">RESIDENTIAL UNITS</p>
+                        <p id="residentialUnitsKPI" class="kpi-value">Loading...</p>
+                    </div>
+                </div>
+
+    <main class="main-container">
                 <div class="chart">
                     <p class="text-primary">PRODUCTS</p>
                     <div class="chart1">
                         <canvas id="charts1"></canvas>
                     </div>
                 </div>
+                
+
                 <div class="chart">
                     <p class="text-primary">PURCHASE ORDER</p>
                     <div class="chart2">
@@ -53,22 +75,43 @@
                     </div>
                 </div>
             </main>
+
             <main class="main-container-table">
                 <div class="tabledata">
                     <div class="search-container">
                         <label for="searchInput">Search:</label>
                         <input type="text" id="searchInput" class="search-bar" placeholder="Type to search...">
                     </div>
+
                     <div class="dropdown">
                         <button onclick="toggleDropdown()" class="dropbtn">Column Filters &#9662;</button>
-                        <div id="columnFilters" class="dropdown-content"></div>
+                        <div id="columnFilters" class="dropdown-content">
+                        </div>
                     </div>
+
                     <div>
                         <table id="dataTable">
                             <thead>
-                                <tr></tr>
+                                <tr>
+                                    <th>Sale Price</th>
+                                    <th>Commercial Units</th>
+                                    <th>Residential Units</th>
+                                </tr>
                             </thead>
-                            <tbody></tbody>
+                            <tbody>
+                                <!-- Sample data -->
+                                <tr>
+                                    <td>500000</td>
+                                    <td>5</td>
+                                    <td>10</td>
+                                </tr>
+                                <tr>
+                                    <td>750000</td>
+                                    <td>7</td>
+                                    <td>15</td>
+                                </tr>
+                                <!-- Add more rows as needed -->
+                            </tbody>
                         </table>
                     </div>
                     <div class="navigation-buttons">
@@ -77,12 +120,59 @@
                     </div>
                 </div>
             </main>
+            </main>
         </main>
     </div>
+
     <script src="table.js" defer></script>
     <script src="script.js" defer></script>
     <script src="Analytic.css" defer></script>
     <script src="charting.js"></script>
     <script src="charting2.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            function getDataFromTable() {
+                const tableData = [];
+                const rows = document.querySelectorAll("#dataTable tbody tr");
+                rows.forEach(row => {
+                    const cells = row.querySelectorAll("td");
+                    const salePrice = parseFloat(cells[0].textContent) || 0;
+                    const commercialUnits = parseInt(cells[1].textContent) || 0;
+                    const residentialUnits = parseInt(cells[2].textContent) || 0;
+                    tableData.push({
+                        salePrice,
+                        commercialUnits,
+                        residentialUnits
+                    });
+                });
+                return tableData;
+            }
+
+            function calculateKPIs(data) {
+                let totalSalePrice = 0;
+                let totalCommercialUnits = 0;
+                let totalResidentialUnits = 0;
+
+                data.forEach(item => {
+                    totalSalePrice += item.salePrice;
+                    totalCommercialUnits += item.commercialUnits;
+                    totalResidentialUnits += item.residentialUnits;
+                });
+
+                return {
+                    totalSalePrice,
+                    totalCommercialUnits,
+                    totalResidentialUnits
+                };
+            }
+
+            const tableData = getDataFromTable();
+            const kpis = calculateKPIs(tableData);
+
+            document.getElementById("totalSalePriceKPI").textContent = `$${kpis.totalSalePrice.toLocaleString()}`;
+            document.getElementById("commercialUnitsKPI").textContent = kpis.totalCommercialUnits.toLocaleString();
+            document.getElementById("residentialUnitsKPI").textContent = kpis.totalResidentialUnits.toLocaleString();
+        });
+    </script>
 </body>
 </html>

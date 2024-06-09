@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JSON to HTML Table with Filtering and Pagination</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border: 1px solid #ddd;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+
+<h2>JSON Data to HTML Table with Filtering and Pagination</h2>
+
+<label for="filterInput">Filter by:</label>
+<select id="filterSelect">
+  <option value="">-- Select Filter --</option>
+</select>
+<input type="text" id="filterInput" placeholder="Filter..." disabled>
+<br><br>
+
+<table id="jsonTable">
+  <thead>
+    <tr></tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<button id="nextPage">Next Page</button>
+
+<script>
+  const jsonData = [
+    // Your JSON data here
+  ];
+
+  const itemsPerPage = 10;
+  let currentPage = 0;
+
+  // Extract headers from JSON keys
+  const headers = Object.keys(jsonData[0]);
+
+  // Create table headers
+  const tableHeader = document.querySelector('#jsonTable thead tr');
+  headers.forEach(header => {
+    const th = document.createElement('th');
+    th.textContent = header;
+    tableHeader.appendChild(th);
+
+    // Create dropdown options
+    if (header !== "PRIMARY") {
+      const option = document.createElement('option');
+      option.textContent = header;
+      document.getElementById('filterSelect').appendChild(option);
+    }
+  });
+
+  // Render table rows for current page
+  function renderTable() {
+    const tableBody = document.querySelector('#jsonTable tbody');
+    tableBody.innerHTML = '';
+
+    const startIndex = currentPage * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    const pageData = jsonData.slice(startIndex, endIndex);
+
+    pageData.forEach(data => {
+      const tr = document.createElement('tr');
+      headers.forEach(header => {
+        const td = document.createElement('td');
+        td.textContent = data[header];
+        tr.appendChild(td);
+      });
+      tableBody.appendChild(tr);
+    });
+  }
+
+  // Filter table rows based on dropdown selection
+  document.getElementById('filterSelect').addEventListener('change', function() {
+    const selectedColumn = this.value;
+    const filterInput = document.getElementById('filterInput');
+    filterInput.value = '';
+
+    if (selectedColumn) {
+      filterInput.disabled = false;
+      filterInput.placeholder = `Filter by ${selectedColumn}...`;
+
+      filterInput.addEventListener('keyup', function() {
+        const filterValue = this.value.toUpperCase();
+        const columnIndex = headers.indexOf(selectedColumn);
+        const rows = document.querySelectorAll('#jsonTable tbody tr');
+
+        rows.forEach(row => {
+          const cells = row.getElementsByTagName('td');
+          const cellValue = cells[columnIndex].textContent.toUpperCase();
+          if (cellValue.indexOf(filterValue) > -1) {
+            row.style.display = '';
+          } else {
+            row.style.display = 'none';
+          }
+        });
+      });
+    } else {
+      filterInput.disabled = true;
+      filterInput.placeholder = 'Filter...';
+
+      // Reset table rows display
+      const rows = document.querySelectorAll('#jsonTable tbody tr');
+      rows.forEach(row => {
+        row.style.display = '';
+      });
+    }
+  });
+
+  // Next Page Button Click Event
+  document.getElementById('nextPage').addEventListener('click', function() {
+    const totalPages = Math.ceil(jsonData.length / itemsPerPage);
+    currentPage = (currentPage + 1) % totalPages;
+    renderTable();
+  });
+
+  // Initial table render
+  renderTable();
+</script>
+
+</body>
+</html>
