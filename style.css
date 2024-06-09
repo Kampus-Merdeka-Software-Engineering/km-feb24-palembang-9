@@ -174,3 +174,57 @@
     background: #fff url('load.gif') no-repeat center center ;
 
 }
+.back-to-index-contact {
+    text-align: center;
+    margin-top: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+}
+
+.back-to-index-contact button {
+    background-color: #263d48; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-index-contact button:hover {
+    background-color: #a9a72d; /* Darker green */
+}
+
+.back-to-index-analytic {
+    text-align: center;
+    margin-top: 10px;
+    position: absolute;
+    top: 50px;
+    right: 400px;
+}
+
+.back-to-index-analytic button {
+    background-color: #263d48; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-index-analytic button:hover {
+    background-color: #a9a72d; /* Darker green */
+}
