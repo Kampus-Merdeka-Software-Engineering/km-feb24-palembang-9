@@ -1,21 +1,19 @@
 //SIDEBAR
 
-var sidebarOpen=false;
-var sidebar= document.getElementById("sidebar");
+var sidebarOpen = false;
+var sidebar = document.getElementById("sidebar");
 
-
-function openSidebar(){
-    if(sidebarOpen){
+function openSidebar() {
+    if (!sidebarOpen) { // Periksa jika sidebar belum terbuka
         sidebar.classList.add("sidebar-responsive");
-        sidebarOpen= true;
+        sidebarOpen = true; // Setel variabel menjadi true karena sidebar sekarang terbuka
     }
 }
 
-
-function closeSidebar(){
-    if(sidebarOpen){
+function closeSidebar() {
+    if (sidebarOpen) { // Periksa jika sidebar sudah terbuka
         sidebar.classList.remove("sidebar-responsive");
-        sidebarOpen=false;
+        sidebarOpen = false; // Setel variabel menjadi false karena sidebar sekarang tertutup
     }
 }
 
@@ -100,4 +98,17 @@ document.addEventListener('DOMContentLoaded', function() {
       loader = document.getElementById('loader');
       loadNow(1); // Berikan opacity awal
   })
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('contactForm');
+    form.addEventListener('submit', function(event) {
+        event.preventDefault(); // Mencegah pengiriman formulir default
+        alert('Sudah submit');
+        form.reset(); // Mengosongkan formulir setelah submit
+        window.location.href = 'index.html'; // Mengarahkan ke index.html
+    });
+});
+
+
+
   

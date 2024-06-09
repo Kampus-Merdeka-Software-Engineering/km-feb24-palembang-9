@@ -11,8 +11,8 @@ fetch('mtx7.json')
   .then(function(data) {
     console.log(data);
 
-    // Sort data by BUILDING_CLASS_AT_TIME_OF_SALE
-    data.sort((a, b) => a.Count.localeCompare(b.Count));
+    // Sort data by Count
+    data.sort((a, b) => b.Count - a.Count); // Assuming 'Count' is a number
 
     createChart7(data);
   })
@@ -20,26 +20,53 @@ fetch('mtx7.json')
     console.error('Error:', error);
   });
 
-  function createChart7(data) {
-    // Sort data by BUILDING_CLASS_AT_TIME_OF_SALE
-    data.sort((a, b) => b.Count - a.Count); // Assuming 'Count' is a number
-  
-    // Get top 10
-    const topTenData = data.slice(0, 10);
-  
-    const labels = topTenData.map(entry => entry.NEIGHBORHOOD);
-    const prices = topTenData.map(entry => parseFloat(entry.average_sale_price));
+function createChart7(data) {
+  // Sort data by Count
+  data.sort((a, b) => b.Count - a.Count); // Assuming 'Count' is a number
+
+  // Get top 10
+  const topTenData = data.slice(0, 10);
+
+  const labels = topTenData.map(entry => entry.NEIGHBORHOOD);
+  const prices = topTenData.map(entry => parseFloat(entry.average_sale_price));
+
+  // Define colors for each bar
+  const backgroundColors = [
+    'rgba(255, 99, 132, 0.2)',
+    'rgba(54, 162, 235, 0.2)',
+    'rgba(255, 206, 86, 0.2)',
+    'rgba(75, 192, 192, 0.2)',
+    'rgba(153, 102, 255, 0.2)',
+    'rgba(255, 159, 64, 0.2)',
+    'rgba(255, 99, 132, 0.2)',
+    'rgba(54, 162, 235, 0.2)',
+    'rgba(255, 206, 86, 0.2)',
+    'rgba(75, 192, 192, 0.2)'
+  ];
+
+  const borderColors = [
+    'rgba(255, 99, 132, 1)',
+    'rgba(54, 162, 235, 1)',
+    'rgba(255, 206, 86, 1)',
+    'rgba(75, 192, 192, 1)',
+    'rgba(153, 102, 255, 1)',
+    'rgba(255, 159, 64, 1)',
+    'rgba(255, 99, 132, 1)',
+    'rgba(54, 162, 235, 1)',
+    'rgba(255, 206, 86, 1)',
+    'rgba(75, 192, 192, 1)'
+  ];
 
   new Chart(ctx7, {
-    type: 'line',
+    type: 'bar',
     data: {
       labels: labels,
       datasets: [{
         label: 'Average Sale Price',
         data: prices,
-        borderColor: '#0077B6',
-        borderWidth: 2.5,
-        fill: false
+        backgroundColor: backgroundColors,
+        borderColor: borderColors,
+        borderWidth: 1
       }]
     },
     options: {

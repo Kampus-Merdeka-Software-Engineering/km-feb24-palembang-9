@@ -11,38 +11,65 @@ fetch('mtx9.json')
   .then(function(data) {
     console.log(data);
 
-    data.sort((a, b) => a.Count.localeCompare(b.Count));
+    // Sort data by rata_rata_harga_per_kaki_persegi
+    data.sort((a, b) => parseFloat(b.rata_rata_harga_per_kaki_persegi) - parseFloat(a.rata_rata_harga_per_kaki_persegi));
 
-    createChart9(data);
+    // Get top 10
+    const topTenData = data.slice(0, 10);
+
+    createChart9(topTenData);
   })
   .catch(function(error) {
     console.error('Error:', error);
   });
 
-  function createChart9(data) {
-    data.sort((a, b) => b.Count - a.Count);
-    
-    const topTenData = data.slice(0, 10);
-  
-    const labels = topTenData.map(entry => entry.NEIGHBORHOOD);
-    const prices = topTenData.map(entry => parseFloat(rata_rata_harga_per_kaki_persegi));
+function createChart9(data) {
+  const labels = data.map(entry => entry.neighborhood);
+  const prices = data.map(entry => parseFloat(entry.rata_rata_harga_per_kaki_persegi));
+
+  // Define colors for each slice
+  const backgroundColors = [
+    'rgba(255, 99, 132, 0.6)',
+    'rgba(54, 162, 235, 0.6)',
+    'rgba(255, 206, 86, 0.6)',
+    'rgba(75, 192, 192, 0.6)',
+    'rgba(153, 102, 255, 0.6)',
+    'rgba(255, 159, 64, 0.6)',
+    'rgba(99, 255, 132, 0.6)',
+    'rgba(162, 54, 235, 0.6)',
+    'rgba(206, 255, 86, 0.6)',
+    'rgba(192, 75, 192, 0.6)'
+  ];
 
   new Chart(ctx9, {
-    type: 'line',
+    type: 'pie',
     data: {
       labels: labels,
       datasets: [{
-        label: 'Average Sale Price',
+        label: 'Average building price',
         data: prices,
-        borderColor: '#0077B6',
-        borderWidth: 2.5,
-        fill: false
+        backgroundColor: backgroundColors,
+        borderColor: '#ffffff',
+        borderWidth: 1
       }]
     },
     options: {
-      scales: {
-        y: {
-          beginAtZero: true
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'top',
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              let label = context.label || '';
+              if (label) {
+                label += ': ';
+              }
+              label += context.raw.toFixed(2);
+              return label;
+            }
+          }
         }
       }
     }

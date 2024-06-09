@@ -5,8 +5,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #F3F3FB;
-    color: #333;
-}
+    color: #333;}
 
 .header-box {
     background-color: white;
@@ -148,6 +147,38 @@ body {
 }
 
 .metrics3 {
+    background-color: #ffffff;
+    padding: 36px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.7); 
+    width: 90%;
+    max-width: 1200px;
+    margin: 35px auto; 
+}
+.metrics5 {
+    background-color: #ffffff;
+    padding: 36px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.7); 
+    width: 90%;
+    max-width: 1200px;
+    margin: 35px auto; 
+}
+
+.metrics7 {
+    background-color: #ffffff;
+    padding: 36px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.7); 
+    width: 90%;
+    max-width: 1200px;
+    margin: 35px auto; 
+}
+
+.metrics9 {
     background-color: #ffffff;
     padding: 36px;
     border: 1px solid #ddd;

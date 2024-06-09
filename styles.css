@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #E5DDC5;
+    background-color: hsl(60, 5%, 96%);
     color: black;
     font-family: "Montserrat", sans-serif;
 }
@@ -19,16 +19,9 @@ body{
 
 }
 
-.header{
- grid-area: header;
- height: 80px;
- background-color: #AF8F6F;
- display: flex;
- align-items: center;
- justify-content: space-between;
- padding: 0 30px 0 30 px;
- box-shadow: 0 6px 7px -4px rgba(0,0,0,0.2);
-}
+/*dihapussementara*/
+
+/*dihapussementara*/
 
 .menu-icon{
     display: none;
@@ -38,11 +31,15 @@ body{
 #sidebar{
     grid-area: sidebar;
     height: 100%;
-    background-color:#4D869C;
+    background: linear-gradient(135deg, #1d2528, #7898ad);
     color: #EEF7FF ;
     overflow-y:auto ;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    z-index: 100;
 
 }
 .sidebar-tittle {
@@ -78,7 +75,7 @@ body{
 }
 
 .sidebar-list-item:hover {
-    background-color: rgba(255,255,255,255);
+    background-color: #d2d2d3;
     cursor: pointer;
 }
 
@@ -93,17 +90,23 @@ body{
     gap: 20px;
     margin: 20px 0;
     grid-area: main;
-    overflow-y: auto;
-    justify-content: space-around; /* Menyebarkan card secara merata dengan ruang di sekitarnya */
+    overflow-y: auto; /* Menyebarkan card secara merata dengan ruang di sekitarnya */
     align-items: flex-start; /* Menyelaraskan item ke awal kontainer */
     flex-wrap: wrap; /* Memungkinkan item untuk bungkus ke baris berikutnya */
     
+}
+
+.main-container-table{
+    min-height: 500px;
+    overflow-x: auto;
+    max-width: 100%;
 }
 
 .main-containerx{
     grid-area: main;
     overflow-y: auto;
     padding: 20px 20px;
+    padding-top: 0px;
 }
 
 .main-tittle{
@@ -138,19 +141,178 @@ body{
 
 }
 
-.chart{
-    width: calc(50% - 10px);
-    display: flex;
+.chart {
+  width: calc(50% - 10px);
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: #ffff;
+  box-sizing: border-box;
+  border: 1px solid #d2d2d3;
+  border-radius: 5px;
+  box-shadow: 0 6px 7px -4px rgba(0,0,0,0.2);
+  max-width: 600px; /* Setengah dari 1200px */
+}
+
+
+.tabledata{
+    width: 100%;
+    display: block;
     flex-direction: column;
     justify-content: space-around;
     padding: 30px;
     background-color: #ffff;
     box-sizing: border-box;
-    border: 2px solid #968d8d;
+    border: 1px solid #d2d2d3;
     border-radius: 5px;
     box-shadow: 0 6px 7px -4px rgba(0,0,0,0.2);
-
+    min-height: 550px;
 }
+
+/* General table styling */
+/* General table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x: auto;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+ 
+  .dropdown-content {
+    display: none; 
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 480px; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 10px; 
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  /* Style for each checkbox and label */
+  .dropdown-content div {
+    display: flex;
+    align-items: center;
+    padding: 5px; /* Reduced padding for a more compact layout */
+  }
+  
+  .dropdown-content input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Clear float */
+  .clear {
+    clear: both;
+  }
+  
+  /* Toggle button cursor */
+  .dropbtn {
+    cursor: pointer;
+  }
+  
+  /* Show dropdown content */
+  .show {
+    display: block;
+  }
+
+  /* Gaya tambahan untuk tombol dropdown */
+.dropbtn {
+    background-color: #263d48; /* Warna latar tombol */
+    color: white; /* Warna teks */
+    padding: 10px 20px; /* Padding di dalam tombol */
+    border: none; /* Menghilangkan border */
+    border-radius: 5px; /* Membulatkan sudut */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Menambahkan bayangan */
+    transition: 0.3s; /* Transisi saat di-hover */
+    font-size: 16px; /* Ukuran font */
+    text-align: center; /* Teks rata tengah */
+    text-decoration: none; /* Menghilangkan dekorasi teks */
+    display: inline-block; /* Menampilkan sebagai inline-block */
+    margin: 4px 2px; /* Margin di sekitar tombol */
+  }
+  
+  /* Mengubah gaya saat tombol di-hover */
+  .dropbtn:hover {
+    background-color: #a9a72d; /* Warna latar saat di-hover */
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); /* Bayangan saat di-hover */
+  }
+  
+  
+/* Container untuk bar pencarian */
+.search-container {
+  position: relative; /* Posisi relatif untuk ikon pencarian absolut */
+  margin: 10px 0; /* Margin atas dan bawah */
+}
+
+/* Menambahkan gaya ke bar pencarian */
+.search-bar {
+  width: calc(100% - 40px); /* Mengurangi lebar untuk ikon pencarian */
+  padding: 10px; /* Padding yang nyaman */
+  border: 1px solid #ddd; /* Border halus */
+  border-radius: 4px; /* Sudut yang bulat */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Bayangan ringan */
+  font-size: 16px; /* Ukuran font yang mudah dibaca */
+  outline: none; /* Menghilangkan outline saat fokus */
+}
+
+/* Placeholder text styling */
+.search-bar::placeholder {
+  color: #888; /* Warna teks placeholder */
+  opacity: 1; /* Opacity penuh */
+}
+
+/* Responsif untuk ukuran layar yang berbeda */
+@media (max-width: 600px) {
+  .search-bar {
+    font-size: 14px; /* Ukuran font yang lebih kecil untuk layar kecil */
+  }
+}
+
+/* Gaya untuk tombol navigasi di sisi kiri tanpa latar belakang */
+.navigation-buttons {
+    text-align: right; /* Menyelaraskan tombol ke kanan */
+  }
+  
+  .nav-button {
+    background-color: transparent; /* Latar transparan */
+    color: #263d48; /* Warna ikon */
+    padding: 5px; /* Padding yang lebih kecil */
+    border: none; /* Tanpa border */
+    font-size: 14px; /* Ukuran font yang lebih kecil */
+    cursor: pointer; /* Kursor pointer */
+    display: inline-block; /* Menampilkan sebagai inline-block */
+    margin: 0 5px; /* Margin yang lebih kecil */
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); /* Bayangan pada teks */
+    transition: text-shadow 0.3s ease-in-out; /* Transisi untuk efek bayangan teks */
+  }
+  
+  /* Mengubah gaya saat tombol di-hover */
+  .nav-button:hover {
+    color: #a9a72d; /* Warna saat di-hover */
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Bayangan teks yang lebih besar saat di-hover */
+  }
+  
+
+
 
 .card:first-child{
     border-left: 7px solid #246dec;
@@ -194,6 +356,21 @@ body{
     padding-bottom: 20px;
 }
 
+#table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+
+  
+
 /*** MEDIA QUERIES ***/
 @media screen and (max-width :992px) {
     .grid-container{
@@ -228,6 +405,29 @@ grid-template-areas:
     }
 }
 
+@media screen and (max-width: 600px) {
+  .chart {
+      width: 100%; /* Mengubah lebar menjadi 100% untuk layar kecil */
+      max-width: none; /* Menghilangkan batasan lebar maksimal */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .tabledata {
+      width: 100%; /* Mengubah lebar menjadi 100% untuk layar kecil */
+      max-width: none; /* Menghilangkan batasan lebar maksimal */
+      overflow-x: scroll;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-container-table {
+      width: 100%; /* Mengubah lebar menjadi 100% untuk layar kecil */
+      max-width: none; /* Menghilangkan batasan lebar maksimal */
+      overflow-x: scroll;
+  }
+}
+
 #loader{
     position: fixed;
     width: 100%;
@@ -237,3 +437,5 @@ grid-template-areas:
     background: #fff url('load.gif') no-repeat center center ;
 
 }
+
+
