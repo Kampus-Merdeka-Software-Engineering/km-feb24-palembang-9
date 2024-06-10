@@ -2,22 +2,44 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: hsl(60, 5%, 96%);
+    background-color: #F3F3FB;
     color: black;
     font-family: "Montserrat", sans-serif;
 }
 
-.grid-container{
-    display: grid;
-    grid-template-columns: 260px 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 3fr;
-    grid-template-areas: 
-    "sidebar header header header"
-    "sidebar main main main"
-    ;
-    height: 110vh;
-
+.grid-container {
+  display: grid;
+  grid-template-columns: 230px 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 3fr;
+  grid-template-areas: 
+  "sidebar header header header"
+  "sidebar main main main";
+  height: 100vh; 
 }
+
+.sidebar {
+  grid-area: sidebar;
+  height: 100%; 
+  background-color: #f0f0f0; 
+ 
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      grid-template-areas: 
+      "header"
+      "sidebar"
+      "main";
+      height: auto;
+  }
+
+  .sidebar {
+      height: auto;
+  }
+}
+
 
 /*dihapussementara*/
 
@@ -31,7 +53,7 @@ body{
 #sidebar{
     grid-area: sidebar;
     height: 100%;
-    background: linear-gradient(135deg, #1d2528, #7898ad);
+    background: linear-gradient(135deg, #0077B6, #7cd7e7);
     color: #EEF7FF ;
     overflow-y:auto ;
     transition: all 0.5s;
@@ -40,7 +62,7 @@ body{
     letter-spacing: 5px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     z-index: 100;
-
+    letter-spacing: 3px;
 }
 .sidebar-tittle {
     display: flex;
@@ -48,13 +70,23 @@ body{
     align-items: center;
     padding: 20px 20px 20px 20px;
     margin-bottom: 30px;
-
 }
+
+.sidebar-list-item {
+  display: flex;
+  align-items: center;
+}
+
+.material-icons-outlined {
+  margin-right: 5px; 
+}
+
 .sidebar-tittle >span {
     display: none;
 }
+
 .sidebar-brand{
-    margin-top: 15px;
+    margin-top: 10px;
     font-size: 20px;
     font-weight: 700;
 }
@@ -63,20 +95,26 @@ body{
     padding: 0;
     margin-top: 15px;
     list-style-type: none;
+    
 
 }
 
 .sidebar-list .sidebar-list-item a {
-    color: #ffff;
+  color: #ffff;
+  text-decoration: none;
+  letter-spacing: 1.3px;
 }
+
 
 .sidebar-list-item{
     padding: 20px 20px 20px 20px ;
+    
 }
 
 .sidebar-list-item:hover {
     background-color: #d2d2d3;
     cursor: pointer;
+    
 }
 
 .sidebar-responsive {
