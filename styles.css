@@ -69,6 +69,42 @@ body{
   
 }
 
+#mapid {
+  width: 600px;
+  height: 400px;
+}
+
+.overview-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px 0;
+  overflow-y: auto;
+  align-items: flex-start;
+  background-color: #ffff;
+  box-sizing: border-box;
+  border: 1px solid #d2d2d3;
+  border-radius: 5px;
+  box-shadow: 0 6px 7px -4px rgba(0, 0, 0, 0.2);
+}
+
+.ovr-text {
+  max-width: 100%;
+  text-align: left;
+  margin-bottom: 20px; 
+  
+}
+
+.ovr-text h2 {
+  font-size: 28px;
+  margin-top: 5px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  padding: 10px 20px 0px 20px; 
+  display: flex;
+}
+
+
 .sidebar-list-item {
   display: flex;
   align-items: center;
