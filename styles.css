@@ -57,7 +57,7 @@ body{
     font-family: 'Arial', sans-serif;
     letter-spacing: 5px;
     text-shadow: 2px 2px 4px rgba(38, 38, 38, 0.5);
-    z-index: 100;
+    z-index: 9999;
     letter-spacing: 3px;
 }
 .sidebar-tittle {
@@ -602,6 +602,14 @@ grid-template-areas:
 
 @media screen and (max-width: 600px) {
   .main-container-table {
+      width: 100%; /* Mengubah lebar menjadi 100% untuk layar kecil */
+      max-width: none; /* Menghilangkan batasan lebar maksimal */
+      overflow-x: scroll;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .overview-section {
       width: 100%; /* Mengubah lebar menjadi 100% untuk layar kecil */
       max-width: none; /* Menghilangkan batasan lebar maksimal */
       overflow-x: scroll;

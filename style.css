@@ -23,6 +23,7 @@
 .contact .content {
     max-width: 800px ;
     text-align: center;
+    padding-top: 50px;
 }
 .contact .content h2 {
     font-size: 36px;
