@@ -171,6 +171,6 @@
     height: 100vh;
     z-index: 1;
     overflow: visible;
-    background: #fff url('load.gif') no-repeat center center ;
+    background: #fff url('loading.gif') no-repeat center center ;
 
 }
