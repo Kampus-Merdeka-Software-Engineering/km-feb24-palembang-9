@@ -176,3 +176,27 @@
     background: #fff url('loading.gif') no-repeat center center ;
 
 }
+.back-to-index-contactus {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.back-to-index-contactus button{
+    background-color: #0077B6; /* Hijau */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-index-contactus button:hover {
+    background-color: #a9a72d;
+}
