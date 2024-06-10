@@ -70,7 +70,7 @@ body{
 }
 
 #mapid {
-  width: 600px;
+  width: 1150px;
   height: 400px;
 }
 
@@ -86,12 +86,16 @@ body{
   border: 1px solid #d2d2d3;
   border-radius: 5px;
   box-shadow: 0 6px 7px -4px rgba(0, 0, 0, 0.2);
+  max-width: 1220px;
+  min-width: 400px;
 }
 
 .ovr-text {
   max-width: 100%;
   text-align: left;
-  margin-bottom: 20px; 
+  margin-bottom: 27px;
+  padding-left: 28px;
+  padding-right: 27px; 
   
 }
 
@@ -103,6 +107,8 @@ body{
   padding: 10px 20px 0px 20px; 
   display: flex;
 }
+
+
 
 
 .sidebar-list-item {
@@ -304,6 +310,7 @@ body{
   border-radius: 5px;
   box-shadow: 0 6px 7px -4px rgba(0, 0, 0, 0.2);
   max-width: 600px;
+  min-width: 300px;
   flex: 1 1 45%; /* Flex-grow, flex-shrink, flex-basis */
 }
 
