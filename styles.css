@@ -290,11 +290,26 @@ body{
 }
 
 .kpi-value {
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-    font-size: 2em;
-    margin-top: 10px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 2em; 
+  margin-top: 10px;
 }
+
+@media (max-width: 768px) {
+  .kpi-value {
+      font-size: 1.5em; 
+      margin-top: 8px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .kpi-value {
+      font-size: 1.2em; 
+      margin-top: 6px;
+  }
+}
+
 
 
 .chart {
