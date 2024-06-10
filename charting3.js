@@ -49,6 +49,8 @@ function createChart3(data) {
       }]
     },
     options: {
+      responsive: true,
+      maintainAspectRatio: false,
       plugins: {
         legend: {
           position: 'bottom',
@@ -70,6 +72,7 @@ function createChart3(data) {
     }
   });
 }
+
 
 // Function to generate random colors
 function generateRandomColors(numColors) {

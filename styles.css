@@ -199,6 +199,7 @@ body{
 
 
 .main-cards{
+  
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
@@ -240,18 +241,23 @@ body{
 }
 
 .kpi .text-primary {
-    font-weight: bold;
+    font-weight: 700;
     color: #1a73e8;
     font-size: 18px;
+    
 }
 
 .kpi-value {
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
 
 
 .chart {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   width: calc(50% - 10px);
   display: flex;
   flex-direction: column;
@@ -350,7 +356,7 @@ table {
 
   /* Gaya tambahan untuk tombol dropdown */
 .dropbtn {
-    background-color: #263d48; /* Warna latar tombol */
+    background-color: #0077B6; /* Warna latar tombol */
     color: white; /* Warna teks */
     padding: 20px 20px; /* Padding di dalam tombol */
     border: none; /* Menghilangkan border */
