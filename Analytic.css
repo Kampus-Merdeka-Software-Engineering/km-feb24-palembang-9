@@ -40,26 +40,22 @@ body {
 }
 
 .about-us {
-    font-size: 15px;
-    font-weight: 700;
-    background-color: white;
-    border: 3px solid black;
-    border-radius: 25px;
-    padding: 10px 15px;
+    background-color: #0077B6; /* Hijau */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
     cursor: pointer;
-}
-
-.about-us-link {
-    text-decoration: none; 
-    color: black; 
-}
-
-.about-us-link button.about-us {
-    color: black; 
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
 }
 
 .about-us:hover {
-    background-color: #f0f0f0; 
+    background-color: #a9a72d; 
 }
 
 .overview-section {
